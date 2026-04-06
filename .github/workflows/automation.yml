@@ -38,8 +38,7 @@ jobs:
       # ── 4. 데이터 수집 및 AI 요약 실행 ───────────────
       - name: 데이터 수집 및 AI 요약 실행
         env:
-          BIZINFO_API_KEY: ${{ secrets.BIZINFO_API_KEY }}
-          GEMINI_API_KEY:  ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python data_pipeline/fetch_and_process.py
 
       # ── 5. 업데이트된 JSON 커밋 ───────────────────────

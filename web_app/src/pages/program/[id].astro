@@ -1,0 +1,227 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import LeadModal from '../../components/LeadModal.astro';
+import AdBanner from '../../components/AdBanner.astro';
+import '../../styles/global.css';
+
+import policiesData from '../../../public/data/policies.json';
+
+type Policy = {
+  id:         string;
+  title:      string;
+  deadline:   string;
+  is_loan:    boolean;
+  summary:    string;
+  cert_bonus: string;
+  url:        string;
+};
+
+export async function getStaticPaths() {
+  const policies = policiesData as Policy[];
+  return policies.map(p => ({ params: { id: p.id }, props: { policy: p } }));
+}
+
+const { policy } = Astro.props as { policy: Policy };
+const { title, deadline, is_loan, summary, cert_bonus, url } = policy;
+
+const typeLabel = is_loan ? '융자' : '보조금';
+const typeClass = is_loan ? 'badge--loan' : 'badge--grant';
+const typeEmoji = is_loan ? '💰' : '🎁';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout
+  title={`${title} | Biz-Flow`}
+  description={summary}
+>
+  <div class="container detail-page">
+
+    <!-- 브레드크럼 -->
+    <nav class="breadcrumb" aria-label="경로">
+      <a href={`${base}`}>홈</a>
+      <span class="sep">›</span>
+      <span>{title}</span>
+    </nav>
+
+    <!-- 상단 광고 -->
+    <AdBanner slot_id="detail-top" label="광고" />
+
+    <article class="detail-card">
+      <!-- 배지 행 -->
+      <div class="detail-badges">
+        <span class={`badge ${typeClass}`}>{typeEmoji} {typeLabel}</span>
+      </div>
+
+      <!-- 제목 -->
+      <h1 class="detail-title">{title}</h1>
+
+      <!-- 메타 정보 -->
+      <dl class="meta-list">
+        <div class="meta-row">
+          <dt>마감일</dt>
+          <dd>📅 {deadline}</dd>
+        </div>
+        <div class="meta-row">
+          <dt>지원 유형</dt>
+          <dd>{typeEmoji} {typeLabel}</dd>
+        </div>
+      </dl>
+
+      <!-- 요약 -->
+      <section class="detail-section">
+        <h2 class="detail-section__title">사업 개요</h2>
+        <p class="detail-section__body">{summary}</p>
+      </section>
+
+      <!-- 인증 혜택 -->
+      {cert_bonus && (
+        <section class="detail-section cert-section">
+          <h2 class="detail-section__title">⭐ 인증 보유 시 추가 혜택</h2>
+          <p class="cert-bonus-text">{cert_bonus}</p>
+          <p class="cert-bonus-note">* 벤처기업·이노비즈·메인비즈 인증 보유 시 신청 우대 또는 가점 적용</p>
+        </section>
+      )}
+
+      <!-- CTA 버튼 행 -->
+      <div class="detail-ctas">
+        <a href={url} target="_blank" rel="noopener noreferrer" class="btn btn--primary">
+          공식 사이트 바로가기 ↗
+        </a>
+        <button class="btn btn--accent consult-btn" data-title={title}>
+          🎯 무료 맞춤 상담 신청
+        </button>
+      </div>
+    </article>
+
+    <!-- 하단 광고 -->
+    <AdBanner slot_id="detail-bottom" label="광고" />
+
+    <!-- 목록으로 돌아가기 -->
+    <a href={`${base}`} class="back-link">← 지원사업 목록으로</a>
+  </div>
+
+  <!-- 상담 모달 -->
+  <LeadModal />
+</BaseLayout>
+
+<style>
+.detail-page {
+  padding-top: 32px;
+  padding-bottom: 60px;
+  max-width: 760px;
+}
+
+.breadcrumb {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+.breadcrumb a { color: var(--color-primary); }
+.sep { opacity: 0.5; }
+
+.detail-card {
+  background: var(--color-surface);
+  border-radius: var(--radius-card);
+  border: 1px solid var(--color-divider);
+  padding: 32px;
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 16px 0;
+}
+
+.detail-badges { display: flex; gap: 8px; flex-wrap: wrap; }
+
+.detail-title {
+  font-size: clamp(20px, 3.5vw, 28px);
+  font-weight: 800;
+  color: var(--color-text-primary);
+  line-height: 1.35;
+}
+
+.meta-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: var(--color-surface-grey);
+  border-radius: 12px;
+  padding: 16px 20px;
+}
+
+.meta-row {
+  display: flex;
+  gap: 16px;
+}
+
+.meta-row dt {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  min-width: 80px;
+}
+
+.meta-row dd {
+  font-size: 14px;
+  color: var(--color-text-primary);
+  font-weight: 500;
+}
+
+.detail-section__title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--color-text-primary);
+}
+
+.detail-section__body {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  line-height: 1.75;
+}
+
+.cert-section {
+  background: rgba(243,156,18,0.06);
+  border-left: 3px solid var(--color-loan);
+  border-radius: 0 12px 12px 0;
+  padding: 16px 20px;
+}
+
+.cert-bonus-text {
+  font-size: 14px;
+  font-weight: 600;
+  color: #92600A;
+  margin-bottom: 6px;
+}
+
+.cert-bonus-note {
+  font-size: 12px;
+  color: var(--color-text-muted);
+}
+
+.detail-ctas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.detail-ctas .btn {
+  flex: 1;
+  min-width: 200px;
+  padding: 14px 24px;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 24px;
+  font-size: 14px;
+  color: var(--color-primary);
+  font-weight: 500;
+}
+.back-link:hover { text-decoration: underline; }
+</style>

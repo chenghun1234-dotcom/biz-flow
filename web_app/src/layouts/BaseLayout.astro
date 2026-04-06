@@ -1,0 +1,172 @@
+---
+export interface Props {
+  title?: string;
+  description?: string;
+  ogImage?: string;
+}
+
+const {
+  title = 'Biz-Flow | 맞춤형 지원제도 플랫폼',
+  description = '소상공인·중소기업을 위한 정부지원사업을 한눈에. 보조금·융자·바우처를 업종·매출별로 필터링하세요.',
+  ogImage = '/biz-flow/og-image.png',
+} = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={description} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content={ogImage} />
+  <meta property="og:url" content={canonicalURL} />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href={canonicalURL} />
+  <link rel="icon" type="image/svg+xml" href="/biz-flow/favicon.svg" />
+  <title>{title}</title>
+
+  <!-- AdFit 스크립트 (카카오) -->
+  <!-- <script async src="//t1.daumcdn.net/kas/static/ba.min.js"></script> -->
+
+  <!-- A-Sense 스크립트 -->
+  <!-- <script async src="https://adn.asenselab.com/js/asense.min.js"></script> -->
+</head>
+<body>
+
+  <!-- ── 상단 내비게이션 ──────────────────── -->
+  <header class="site-header">
+    <nav class="container site-nav">
+      <a href="/biz-flow/" class="site-logo">
+        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" aria-hidden="true">
+          <rect width="28" height="28" rx="8" fill="#1A2B8C"/>
+          <path d="M7 21 L14 7 L21 21" stroke="#fff" stroke-width="2.5" stroke-linejoin="round" fill="none"/>
+          <path d="M9.5 16 H18.5" stroke="#27AE60" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+        <span class="site-logo__text">Biz-Flow</span>
+      </a>
+      <div class="site-nav__right">
+        <a href="/biz-flow/" class="nav-link">지원사업</a>
+        <button class="btn btn--accent btn--sm" id="hdr-consult-btn">무료 상담 신청</button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ── 메인 콘텐츠 ─────────────────────── -->
+  <main>
+    <slot />
+  </main>
+
+  <!-- ── 푸터 ──────────────────────────────── -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <p class="site-footer__brand">Biz-Flow</p>
+      <p class="site-footer__copy">© 2025 Biz-Flow. 본 사이트는 공공데이터를 기반으로 자동 생성된 참고 정보를 제공합니다.<br/>
+        실제 지원 자격 및 혜택은 반드시 해당 기관에 확인하시기 바랍니다.</p>
+      <div class="site-footer__links">
+        <a href="#">이용약관</a>
+        <a href="#">개인정보처리방침</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // 헤더 상담 버튼 → 모달 오픈
+    document.getElementById('hdr-consult-btn')?.addEventListener('click', () => {
+      document.getElementById('lead-modal')?.classList.add('is-open');
+    });
+  </script>
+
+  <slot name="after-body" />
+</body>
+</html>
+
+<style>
+/* ── 헤더 ──────────────────────────────── */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(255,255,255,0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--color-divider);
+}
+
+.site-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+}
+
+.site-logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.site-logo__text {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--color-primary);
+  letter-spacing: -0.5px;
+}
+
+.site-nav__right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-link {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text-secondary);
+  transition: color 0.15s;
+}
+.nav-link:hover { color: var(--color-primary); }
+
+.btn--sm { padding: 8px 18px; font-size: 13px; }
+
+/* ── 푸터 ──────────────────────────────── */
+.site-footer {
+  background: #1A2030;
+  color: #9CA3AF;
+  padding: 36px 0;
+  margin-top: 60px;
+}
+
+.site-footer__inner {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.site-footer__brand {
+  font-size: 18px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 4px;
+}
+
+.site-footer__copy {
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.site-footer__links {
+  display: flex;
+  gap: 16px;
+  font-size: 12px;
+  margin-top: 8px;
+}
+
+.site-footer__links a {
+  color: #9CA3AF;
+  transition: color 0.15s;
+}
+.site-footer__links a:hover { color: #fff; }
+</style>

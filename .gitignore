@@ -1,0 +1,35 @@
+# ── Node.js ─────────────────────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── Astro 빌드 출력 ──────────────────────────────
+web_app/dist/
+web_app/.astro/
+
+# ── Python ──────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ── 환경 변수 ─────────────────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── 에디터 ──────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── 로그 ────────────────────────────────────────
+*.log
+logs/

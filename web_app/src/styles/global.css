@@ -1,0 +1,201 @@
+/* ============================================
+   Biz-Flow 글로벌 스타일
+   ============================================ */
+
+/* Google Fonts - Noto Sans KR */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;600;700;800&display=swap');
+
+/* ── CSS 변수 ─────────────────────────────── */
+:root {
+  /* 브랜드 컬러 */
+  --color-primary:      #1A2B8C;
+  --color-primary-light:#3D52C2;
+  --color-accent:       #27AE60;   /* 보조금 그린 */
+  --color-loan:         #F39C12;   /* 융자 오렌지 */
+  --color-voucher:      #2980B9;   /* 바우처 블루 */
+  --color-urgent:       #E53E3E;   /* 마감 임박 */
+
+  /* 배경·서피스 */
+  --color-bg:           #F8F9FE;
+  --color-surface:      #FFFFFF;
+  --color-surface-grey: #F1F3F9;
+  --color-divider:      #E5E7EB;
+
+  /* 텍스트 */
+  --color-text-primary:  #1A1F36;
+  --color-text-secondary:#6B7280;
+  --color-text-muted:    #9CA3AF;
+
+  /* 그라데이션 */
+  --gradient-hero: linear-gradient(135deg, #1A2B8C 0%, #3D52C2 55%, #6C63FF 100%);
+
+  /* 간격 */
+  --radius-card:   16px;
+  --radius-badge:  6px;
+  --radius-button: 12px;
+  --radius-tag:    20px;
+
+  /* 그림자 */
+  --shadow-card: 0 4px 12px rgba(0,0,0,0.06), 0 1px 4px rgba(0,0,0,0.04);
+  --shadow-hover: 0 8px 20px rgba(26,43,140,0.12);
+}
+
+/* ── 리셋 ─────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html {
+  font-family: 'Noto Sans KR', -apple-system, sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+  background: var(--color-bg);
+  color: var(--color-text-primary);
+}
+
+body { min-height: 100vh; }
+img, svg { display: block; max-width: 100%; }
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; cursor: pointer; border: none; }
+
+/* ── 레이아웃 컨테이너 ─────────────────────── */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+@media (min-width: 768px) {
+  .container { padding: 0 32px; }
+}
+
+/* ── 공통 배지 ────────────────────────────── */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 3px 10px;
+  border-radius: var(--radius-badge);
+  font-size: 11px;
+  font-weight: 700;
+  border: 1px solid transparent;
+}
+
+.badge--grant {
+  background: rgba(39,174,96,0.12);
+  color: var(--color-accent);
+  border-color: rgba(39,174,96,0.35);
+}
+
+.badge--loan {
+  background: rgba(243,156,18,0.12);
+  color: var(--color-loan);
+  border-color: rgba(243,156,18,0.35);
+}
+
+.badge--voucher {
+  background: rgba(41,128,185,0.12);
+  color: var(--color-voucher);
+  border-color: rgba(41,128,185,0.35);
+}
+
+.badge--urgent {
+  background: rgba(229,62,62,0.1);
+  color: var(--color-urgent);
+  border-color: rgba(229,62,62,0.35);
+}
+
+/* ── 버튼 ─────────────────────────────────── */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 12px 24px;
+  border-radius: var(--radius-button);
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background: var(--color-primary);
+  color: #fff;
+}
+.btn--primary:hover { background: var(--color-primary-light); transform: translateY(-1px); }
+
+.btn--accent {
+  background: var(--color-accent);
+  color: #fff;
+}
+.btn--accent:hover { opacity: 0.9; transform: translateY(-1px); }
+
+.btn--ghost {
+  background: transparent;
+  color: var(--color-primary);
+  border: 1.5px solid var(--color-primary);
+}
+.btn--ghost:hover { background: rgba(26,43,140,0.06); }
+
+/* ── 모달 오버레이 ────────────────────────── */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+}
+.modal-overlay.is-open { display: flex; }
+
+.modal-box {
+  background: var(--color-surface);
+  border-radius: 20px;
+  width: 100%;
+  max-width: 480px;
+  padding: 28px;
+  animation: modal-in 0.2s ease;
+}
+
+@keyframes modal-in {
+  from { opacity: 0; transform: scale(0.95) translateY(8px); }
+  to   { opacity: 1; transform: scale(1)    translateY(0);  }
+}
+
+/* ── 폼 인풋 ──────────────────────────────── */
+.form-group { display: flex; flex-direction: column; gap: 4px; }
+.form-label { font-size: 13px; font-weight: 600; color: var(--color-text-primary); }
+.form-input {
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1.5px solid var(--color-divider);
+  background: var(--color-surface-grey);
+  font-size: 14px;
+  font-family: inherit;
+  transition: border-color 0.15s;
+  outline: none;
+}
+.form-input:focus { border-color: var(--color-primary); background: #fff; }
+
+/* ── 광고 영역 ────────────────────────────── */
+.ad-slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  background: var(--color-surface-grey);
+  border: 1px dashed var(--color-divider);
+  border-radius: 8px;
+  color: var(--color-text-muted);
+  font-size: 12px;
+  margin: 8px 0;
+}
+
+/* ── 유틸리티 ─────────────────────────────── */
+.sr-only {
+  position: absolute; width: 1px; height: 1px;
+  padding: 0; margin: -1px; overflow: hidden;
+  clip: rect(0,0,0,0); white-space: nowrap; border-width: 0;
+}

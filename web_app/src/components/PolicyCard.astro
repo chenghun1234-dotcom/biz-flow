@@ -1,0 +1,154 @@
+---
+export interface Props {
+  id:         string;
+  title:      string;
+  deadline:   string;
+  is_loan:    boolean;
+  summary:    string;
+  cert_bonus: string;
+  url:        string;
+}
+
+const { id, title, deadline, is_loan, summary, cert_bonus, url } = Astro.props;
+
+const base = import.meta.env.BASE_URL;
+
+// 마감임박 판단 (30일 이내)
+function isUrgent(deadlineStr: string): boolean {
+  try {
+    const d = new Date(deadlineStr);
+    const now = new Date();
+    const diffMs = d.getTime() - now.getTime();
+    return diffMs > 0 && diffMs < 30 * 24 * 60 * 60 * 1000;
+  } catch { return false; }
+}
+
+const urgent = isUrgent(deadline);
+const typeLabel = is_loan ? '융자' : '보조금';
+const typeClass = is_loan ? 'badge--loan' : 'badge--grant';
+---
+
+<article class="policy-card" data-loan={String(is_loan)}>
+  <!-- 배지 행 -->
+  <div class="policy-card__badges">
+    <span class={`badge ${typeClass}`}>
+      {is_loan ? '💰' : '🎁'} {typeLabel}
+    </span>
+    {urgent && <span class="badge badge--urgent">⏰ 마감임박</span>}
+  </div>
+
+  <!-- 제목 -->
+  <h3 class="policy-card__title">
+    <a href={`${base}program/${id}/`} class="policy-card__title-link">
+      {title}
+    </a>
+  </h3>
+
+  <!-- 요약 -->
+  <p class="policy-card__summary">{summary}</p>
+
+  <!-- 마감일 -->
+  <p class="policy-card__deadline">📅 마감: {deadline}</p>
+
+  <!-- 인증 혜택 -->
+  {cert_bonus && (
+    <div class="policy-card__cert">
+      <span class="cert-icon">⭐</span>
+      <span class="cert-text">{cert_bonus}</span>
+    </div>
+  )}
+
+  <!-- CTA 버튼 -->
+  <div class="policy-card__actions">
+    <a href={`${base}program/${id}/`} class="btn btn--ghost btn--card">자세히 보기</a>
+    <button
+      class="btn btn--accent btn--card consult-btn"
+      data-title={title}
+    >
+      상담 신청
+    </button>
+  </div>
+</article>
+
+<style>
+.policy-card {
+  background: var(--color-surface);
+  border-radius: var(--radius-card);
+  border: 1px solid var(--color-divider);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: box-shadow 0.2s, transform 0.2s;
+  box-shadow: var(--shadow-card);
+}
+
+.policy-card:hover {
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-2px);
+}
+
+.policy-card__badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.policy-card__title {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 1.45;
+  color: var(--color-text-primary);
+}
+
+.policy-card__title-link {
+  color: inherit;
+  transition: color 0.15s;
+}
+.policy-card__title-link:hover { color: var(--color-primary); }
+
+.policy-card__summary {
+  font-size: 13px;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.policy-card__deadline {
+  font-size: 12px;
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+.policy-card__cert {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  background: rgba(243,156,18,0.07);
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.cert-icon { font-size: 13px; flex-shrink: 0; margin-top: 1px; }
+
+.cert-text {
+  font-size: 12px;
+  color: #92600A;
+  line-height: 1.5;
+}
+
+.policy-card__actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.btn--card {
+  flex: 1;
+  padding: 10px 16px;
+  font-size: 13px;
+}
+</style>

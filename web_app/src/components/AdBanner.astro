@@ -1,0 +1,54 @@
+---
+// AdBanner.astro — 광고 슬롯 (AdFit/A-Sense 실제 코드로 교체)
+export interface Props {
+  slot_id?: string;
+  label?:   string;
+}
+const { slot_id = 'top', label = '광고' } = Astro.props;
+---
+
+<div class="ad-wrap" data-slot={slot_id}>
+  <!-- ✏️ 실제 광고 코드를 아래 주석 해제 후 삽입 -->
+
+  <!-- 카카오 AdFit 예시
+  <ins class="kakao_ad_area"
+    style="display:none;"
+    data-ad-unit="DAN-XXXXXXXXXXXX"
+    data-ad-width="728"
+    data-ad-height="90">
+  </ins>
+  -->
+
+  <!-- A-Sense 예시
+  <div id={`asense-${slot_id}`} class="asense-ad"></div>
+  -->
+
+  <!-- 개발 중 플레이스홀더 -->
+  <div class="ad-placeholder">
+    <span>📢 {label}</span>
+  </div>
+</div>
+
+<style>
+.ad-wrap {
+  width: 100%;
+  margin: 12px 0;
+  text-align: center;
+}
+
+.ad-placeholder {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  max-width: 728px;
+  height: 72px;
+  background: var(--color-surface-grey);
+  border: 1px dashed #D1D5DB;
+  border-radius: 8px;
+  color: var(--color-text-muted);
+  font-size: 13px;
+  margin: 0 auto;
+}
+</style>

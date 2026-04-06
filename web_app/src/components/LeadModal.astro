@@ -1,0 +1,236 @@
+---
+// LeadModal.astro — 무료 상담 신청 모달 (리드 수집)
+---
+
+<div id="lead-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+  <div class="modal-box">
+
+    <!-- 닫기 버튼 -->
+    <button class="modal-close" id="modal-close-btn" aria-label="닫기">✕</button>
+
+    <!-- 헤더 -->
+    <div class="modal-header">
+      <div class="modal-icon">🎯</div>
+      <h2 id="modal-title" class="modal-title">무료 맞춤 상담 신청</h2>
+      <p class="modal-subtitle">
+        전담 전문가가 업종·매출 조건에 맞는<br/>
+        <strong>최적 지원사업을 무료로 분석</strong>해드립니다.
+      </p>
+    </div>
+
+    <!-- 신청 대상 사업명 표시 -->
+    <div id="modal-program-name" class="modal-program-badge" style="display:none"></div>
+
+    <!-- 폼 -->
+    <form id="lead-form" class="lead-form" novalidate>
+      <div class="form-group">
+        <label class="form-label" for="lead-name">성함 <span class="required">*</span></label>
+        <input
+          id="lead-name"
+          name="name"
+          type="text"
+          class="form-input"
+          placeholder="홍길동"
+          required
+          autocomplete="name"
+        />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="lead-phone">연락처 <span class="required">*</span></label>
+        <input
+          id="lead-phone"
+          name="phone"
+          type="tel"
+          class="form-input"
+          placeholder="010-0000-0000"
+          required
+          autocomplete="tel"
+        />
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="lead-biz">업종</label>
+        <select id="lead-biz" name="business_type" class="form-input">
+          <option value="">선택하세요</option>
+          <option>제조업</option>
+          <option>도소매업</option>
+          <option>음식점업</option>
+          <option>서비스업</option>
+          <option>IT·소프트웨어</option>
+          <option>건설업</option>
+          <option>기타</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="lead-revenue">연 매출 규모</label>
+        <select id="lead-revenue" name="revenue" class="form-input">
+          <option value="">선택하세요</option>
+          <option>1억 미만</option>
+          <option>1억~5억</option>
+          <option>5억~30억</option>
+          <option>30억~120억</option>
+          <option>120억 이상</option>
+        </select>
+      </div>
+
+      <!-- 개인정보 동의 -->
+      <label class="consent-label">
+        <input type="checkbox" name="consent" required />
+        <span>
+          개인정보 수집·이용에 동의합니다.
+          <a href="#" class="consent-link">(상세보기)</a>
+        </span>
+      </label>
+
+      <!-- 제출 버튼 -->
+      <button type="submit" class="btn btn--accent btn--full" id="submit-btn">
+        무료 상담 신청하기 🚀
+      </button>
+
+      <!-- 성공 메시지 (숨김) -->
+      <div id="form-success" class="form-success" style="display:none">
+        ✅ 신청이 완료됐습니다! 1영업일 내 연락드리겠습니다.
+      </div>
+    </form>
+  </div>
+</div>
+
+<script>
+  const modal      = document.getElementById('lead-modal')!;
+  const closeBtn   = document.getElementById('modal-close-btn')!;
+  const form       = document.getElementById('lead-form') as HTMLFormElement;
+  const successMsg = document.getElementById('form-success')!;
+  const programBadge = document.getElementById('modal-program-name')!;
+
+  // 모달 닫기
+  function closeModal() { modal.classList.remove('is-open'); }
+  closeBtn.addEventListener('click', closeModal);
+  modal.addEventListener('click', (e) => {
+    if (e.target === modal) closeModal();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeModal();
+  });
+
+  // 상담 버튼 클릭 시 사업명 표시
+  document.addEventListener('click', (e) => {
+    const btn = (e.target as Element).closest('.consult-btn');
+    if (!btn) return;
+    const title = (btn as HTMLElement).dataset.title || '';
+    if (title) {
+      programBadge.textContent = `📌 ${title}`;
+      programBadge.style.display = 'block';
+    }
+    modal.classList.add('is-open');
+  });
+
+  // 폼 제출 (Formspree 또는 Netlify Forms 연동 가능)
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const submitBtn = document.getElementById('submit-btn') as HTMLButtonElement;
+    submitBtn.disabled = true;
+    submitBtn.textContent = '신청 중...';
+
+    const data = Object.fromEntries(new FormData(form));
+
+    try {
+      // TODO: 실제 엔드포인트 교체
+      // await fetch('https://formspree.io/f/YOUR_ID', { method: 'POST', body: JSON.stringify(data), headers: { 'Content-Type': 'application/json' } });
+      console.log('Lead:', data);
+
+      form.querySelectorAll('input, select, button').forEach(el => (el as HTMLInputElement).disabled = true);
+      successMsg.style.display = 'block';
+    } catch {
+      submitBtn.disabled = false;
+      submitBtn.textContent = '무료 상담 신청하기 🚀';
+    }
+  });
+</script>
+
+<style>
+.modal-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: var(--color-surface-grey);
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s;
+}
+.modal-close:hover { background: var(--color-divider); }
+
+.modal-box { position: relative; }
+
+.modal-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.modal-icon { font-size: 36px; margin-bottom: 8px; }
+
+.modal-title {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--color-primary);
+  margin-bottom: 6px;
+}
+
+.modal-subtitle {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  line-height: 1.6;
+}
+
+.modal-program-badge {
+  background: rgba(26,43,140,0.07);
+  color: var(--color-primary);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.lead-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.required { color: var(--color-urgent); }
+
+.consent-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+}
+
+.consent-label input { margin-top: 2px; flex-shrink: 0; }
+
+.consent-link { color: var(--color-primary); text-decoration: underline; }
+
+.btn--full { width: 100%; padding: 14px; font-size: 15px; }
+
+.form-success {
+  background: rgba(39,174,96,0.1);
+  border-radius: 10px;
+  padding: 14px;
+  font-size: 14px;
+  color: var(--color-accent);
+  font-weight: 600;
+  text-align: center;
+}
+</style>

@@ -62,14 +62,20 @@ def fetch_bizinfo_data(max_pages: int = 2) -> list[dict]:
 
         soup = BeautifulSoup(resp.text, "html.parser")
 
-        # 게시글 행 선택 — 구조 변경 시 selector 조정 필요
-        rows = soup.select(".table_type_1 tbody tr")
+        # 첫 번째 <table>의 tbody tr 선택 (클래스 없음 확인됨)
+        tables = soup.find_all("table")
+        rows = tables[0].select("tbody tr") if tables else []
         if not rows:
-            print(f"[크롤링] 페이지 {page}: 게시글 없음 (selector 불일치 또는 마지막 페이지)")
+            print(f"[크롤링] 페이지 {page}: 게시글 없음 (마지막 페이지 또는 구조 변경)")
             break
 
         for row in rows:
-            title_el = row.select_one("td.txt_l a")
+            tds = row.find_all("td")
+            if len(tds) < 5:
+                continue
+
+            # td[2]: 제목 + 링크
+            title_el = tds[2].find("a")
             if not title_el:
                 continue
 
@@ -77,24 +83,33 @@ def fetch_bizinfo_data(max_pages: int = 2) -> list[dict]:
             href  = title_el.get("href", "")
             link  = BIZINFO_BASE_URL + href if href.startswith("/") else href
 
-            # qs 마지막 값을 ID로 사용
-            item_id = href.split("=")[-1] if "=" in href else re.sub(r"\W+", "_", title[:20])
+            # pblancId 파라미터를 ID로 사용
+            m_id = re.search(r"pblancId=([^&]+)", href)
+            item_id = m_id.group(1) if m_id else re.sub(r"\W+", "_", title[:20])
 
-            tds = row.find_all("td")
-            department = tds[2].get_text(strip=True) if len(tds) > 2 else ""
-            deadline   = tds[4].get_text(strip=True) if len(tds) > 4 else "공고문 참조"
+            # td[1]: 분야 (경영/수출/창업/금융 등)
+            biz_field = tds[1].get_text(strip=True)
 
-            # 날짜 정규화: 'YYYY.MM.DD' → 'YYYY-MM-DD'
-            deadline = re.sub(r"(\d{4})\.(\d{2})\.(\d{2})", r"\1-\2-\3", deadline)
+            # td[3]: 기간 "YYYY-MM-DD ~ YYYY-MM-DD" → 마감일만 추출
+            date_raw = tds[3].get_text(strip=True)
+            m_date = re.search(r"~\s*(\d{4}-\d{2}-\d{2})", date_raw)
+            if m_date:
+                deadline = m_date.group(1)
+            else:
+                # 단일 날짜 or YYYY.MM.DD 포맷 처리
+                deadline = re.sub(r"(\d{4})\.(\d{2})\.(\d{2})", r"\1-\2-\3", date_raw.split("~")[-1].strip())
 
+            # td[4]: 주관기관/지역
+            department = tds[4].get_text(strip=True)
             full_title = f"[{department}] {title}" if department else title
 
             all_items.append({
-                "id":       f"crawl_{item_id}",
-                "title":    full_title,
-                "content":  title,   # 기본은 제목으로, 상세 크롤링 시 본문으로 교체
-                "deadline": deadline,
-                "url":      link,
+                "id":        f"crawl_{item_id}",
+                "title":     full_title,
+                "content":   title,
+                "biz_field": biz_field,   # 기업마당 분류 (AI field 분류에 힌트로 사용)
+                "deadline":  deadline,
+                "url":       link,
             })
 
         print(f"[크롤링] 페이지 {page}: {len(rows)}건 수집")
@@ -122,19 +137,20 @@ def fetch_detail_content(url: str) -> str:
 # ──────────────────────────────────────────────────────
 #  Step 2: Gemini AI 분석
 # ──────────────────────────────────────────────────────
-def process_with_ai(title: str, content: str) -> dict:
+def process_with_ai(title: str, content: str, biz_field: str = "") -> dict:
     """
-    제목·본문을 Gemini로 분석해 is_loan / summary / cert_bonus 반환.
+    제목·본문을 Gemini로 분석해 is_loan / target / field / summary / cert_bonus 반환.
     """
+    field_hint = f"\n기업마당 분류: {biz_field}" if biz_field else ""
     prompt = f"""
 다음 정부지원사업 공고를 분석해서 JSON 형식으로만 답해줘.
 
 제목: {title}
-내용: {content[:1500]}
+내용: {content[:1500]}{field_hint}
 
 출력 형식 (JSON만, 설명 없이):
 {{
-    "is_loan": boolean (융자/대출이면 true, 보조금/바우쳄면 false),
+    "is_loan": boolean (융자/대출이면 true, 보조금/바우처면 false),
     "target": "소상공인|중소기업|제조업|농업/식품|스타트업/창업 중 가장 적합 (슬래시 포함 원문 그대로)",
     "field": "자금/금융|창업지원|R&D/기술|수출/마케팅|경영지원 중 가장 적합 (수식어 포함 원문 그대로)",
     "summary": "핵심 내용 1줄 요약 (갚지 않아도 되는 돈인지 명시, 50자 이내)",
@@ -217,7 +233,8 @@ def main():
         # 상세 본문 추가 크롤링
         print(f"\n  🔍 [{i+1}] 상세 크롤링 + AI 분석: {title[:40]}")
         content = fetch_detail_content(url)
-        ai = process_with_ai(title, content or title)
+        biz_field = item.get("biz_field", "")
+        ai = process_with_ai(title, content or title, biz_field)
 
         new_items.append({
             "id":        item["id"],

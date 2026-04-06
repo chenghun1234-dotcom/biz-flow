@@ -1,7 +1,6 @@
 ﻿---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import PolicyCard from '../components/PolicyCard.astro';
-import LeadModal from '../components/LeadModal.astro';
 import AdBanner from '../components/AdBanner.astro';
 import '../styles/global.css';
 
@@ -119,9 +118,6 @@ const targets = Object.keys(TARGET_META);
   <div class="container" style="margin-top:32px;">
     <AdBanner slot_id="bottom-banner" label="광고 영역 (728×90)" />
   </div>
-
-  <!-- 상담 모달 -->
-  <LeadModal />
 </BaseLayout>
 
 <script>

@@ -72,12 +72,9 @@ const typeClass = is_loan ? 'badge--loan' : 'badge--grant';
   <!-- CTA 버튼 -->
   <div class="policy-card__actions">
     <a href={`${base}/program/${id}/`} class="btn btn--ghost btn--card">자세히 보기</a>
-    <button
-      class="btn btn--accent btn--card consult-btn"
-      data-title={title}
-    >
-      상담 신청
-    </button>
+    <a href={url} target="_blank" rel="noopener noreferrer" class="btn btn--accent btn--card">
+      신청하기 ↗
+    </a>
   </div>
 </article>
 

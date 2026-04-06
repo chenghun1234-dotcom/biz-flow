@@ -1,6 +1,5 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import LeadModal from '../../components/LeadModal.astro';
 import AdBanner from '../../components/AdBanner.astro';
 import '../../styles/global.css';
 
@@ -91,11 +90,8 @@ const base = import.meta.env.BASE_URL;
       <!-- CTA 버튼 행 -->
       <div class="detail-ctas">
         <a href={url} target="_blank" rel="noopener noreferrer" class="btn btn--primary">
-          공식 사이트 바로가기 ↗
+          공식 사이트에서 신청하기 ↗
         </a>
-        <button class="btn btn--accent consult-btn" data-title={title}>
-          🎯 무료 맞춤 상담 신청
-        </button>
       </div>
     </article>
 
@@ -105,9 +101,6 @@ const base = import.meta.env.BASE_URL;
     <!-- 목록으로 돌아가기 -->
     <a href={`${base}`} class="back-link">← 지원사업 목록으로</a>
   </div>
-
-  <!-- 상담 모달 -->
-  <LeadModal />
 </BaseLayout>
 
 <style>

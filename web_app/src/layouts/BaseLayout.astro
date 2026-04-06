@@ -50,7 +50,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       </a>
       <div class="site-nav__right">
         <a href="/biz-flow/" class="nav-link">지원사업</a>
-        <button class="btn btn--accent btn--sm" id="hdr-consult-btn">무료 상담 신청</button>
+        <a href="https://www.bizinfo.go.kr" target="_blank" rel="noopener noreferrer" class="btn btn--accent btn--sm">기업마당 바로가기 ↗</a>
       </div>
     </nav>
   </header>
@@ -72,13 +72,6 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       </div>
     </div>
   </footer>
-
-  <script>
-    // 헤더 상담 버튼 → 모달 오픈
-    document.getElementById('hdr-consult-btn')?.addEventListener('click', () => {
-      document.getElementById('lead-modal')?.classList.add('is-open');
-    });
-  </script>
 
   <slot name="after-body" />
 </body>

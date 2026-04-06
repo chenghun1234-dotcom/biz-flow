@@ -5,19 +5,10 @@
     "deadline": "2026-04-09",
     "is_loan": false,
     "target": "소상공인",
+    "field": "경영지원",
     "summary": "소상공인 AI 마케팅 도구 구매 및 교육비 최대 500만원 지원. 제조·서비스·음식업 종사자 신청 가능.",
     "cert_bonus": "벤처기업 인증 보유 시 우대",
     "url": "https://www.bizinfo.go.kr"
-  },
-  {
-    "id": "prog_005",
-    "title": "농식품 분야 스마트화 시설 지원사업",
-    "deadline": "2026-05-10",
-    "is_loan": false,
-    "target": "농업/식품",
-    "summary": "ICT 기반 스마트팜 시설 설치비 50% 최대 2억원 지원. 농업 종사자 및 식품 제조업체 신청 가능.",
-    "cert_bonus": null,
-    "url": "https://www.mafra.go.kr"
   },
   {
     "id": "prog_002",
@@ -25,9 +16,21 @@
     "deadline": "2026-05-30",
     "is_loan": false,
     "target": "소상공인",
+    "field": "자금/금융",
     "summary": "경영안정 목적 비용절감 컨설팅 및 인건비 일부 최대 5000만원 지원.",
     "cert_bonus": "벤처기업 인증 보유 시 우대",
     "url": "https://www.sbiz.or.kr"
+  },
+  {
+    "id": "prog_003",
+    "title": "소상공인 경영안정자금 대출 금리우대형",
+    "deadline": "2026-12-31",
+    "is_loan": true,
+    "target": "소상공인",
+    "field": "자금/금융",
+    "summary": "연 2.0% 고정금리로 최대 7000만원 대출. 신용등급과 업종 조건 충족 필요.",
+    "cert_bonus": null,
+    "url": "https://www.semas.or.kr"
   },
   {
     "id": "prog_004",
@@ -35,19 +38,32 @@
     "deadline": "2026-06-15",
     "is_loan": false,
     "target": "중소기업",
+    "field": "R&D/기술",
     "summary": "기술 기반 중소기업 R&D 비용 최대 1억 5천만원 지원. 제조업 및 IT 분야 신청 가능.",
     "cert_bonus": "이노비즈 인증 보유 시 우대",
     "url": "https://www.k-startup.go.kr"
   },
   {
-    "id": "prog_012",
-    "title": "소상공인 디지털 전환 지원 온라인 판로 개척",
-    "deadline": "2026-06-30",
+    "id": "prog_005",
+    "title": "농식품 분야 스마트화 시설 지원사업",
+    "deadline": "2026-05-10",
     "is_loan": false,
-    "target": "소상공인",
-    "summary": "온라인 쇼핑몰 구축 SNS 마케팅 비용 최대 300만원 지원. 오프라인 소상공인 전환 우대.",
+    "target": "농업/식품",
+    "field": "R&D/기술",
+    "summary": "ICT 기반 스마트팜 시설 설치비 50% 최대 2억원 지원. 농업 종사자 및 식품 제조업체 신청 가능.",
     "cert_bonus": null,
-    "url": "https://www.sbiz.or.kr"
+    "url": "https://www.mafra.go.kr"
+  },
+  {
+    "id": "prog_006",
+    "title": "소상공인 경영안정자금 시설투자 대출",
+    "deadline": "2026-11-30",
+    "is_loan": true,
+    "target": "소상공인",
+    "field": "자금/금융",
+    "summary": "시설 투자 목적 최대 1억원 저금리 대출. 고용 실적 보유 사업장 우대.",
+    "cert_bonus": null,
+    "url": "https://www.semas.or.kr"
   },
   {
     "id": "prog_007",
@@ -55,6 +71,7 @@
     "deadline": "2026-07-31",
     "is_loan": false,
     "target": "제조업",
+    "field": "R&D/기술",
     "summary": "제조공정 디지털 전환을 위한 컨설팅·솔루션 구매비 최대 3000만원 지원.",
     "cert_bonus": "ISO 9001 인증 보유 시 우대",
     "url": "https://www.kosmes.or.kr"
@@ -65,6 +82,7 @@
     "deadline": "2026-07-31",
     "is_loan": false,
     "target": "스타트업/창업",
+    "field": "창업지원",
     "summary": "만 39세 이하 예비창업자 창업 교육 및 사업화 자금 최대 1억원 지원.",
     "cert_bonus": null,
     "url": "https://www.k-startup.go.kr"
@@ -75,39 +93,10 @@
     "deadline": "2026-08-15",
     "is_loan": false,
     "target": "중소기업",
+    "field": "수출/마케팅",
     "summary": "신흥시장 수출 마케팅 비용 최대 5000만원 지원. 수출 실적 보유 중소기업 우선 선발.",
     "cert_bonus": "메인비즈 인증 보유 시 가점",
     "url": "https://www.kotra.or.kr"
-  },
-  {
-    "id": "prog_011",
-    "title": "스마트 공장 구축 지원사업 2026",
-    "deadline": "2026-09-30",
-    "is_loan": false,
-    "target": "제조업",
-    "summary": "스마트 공장 도입 중소·중견기업에 구축비 최대 50% 최대 5억원 지원. 제조업 한정.",
-    "cert_bonus": "ISO 45001 인증 보유 시 우선 선정",
-    "url": "https://www.smart-factory.kr"
-  },
-  {
-    "id": "prog_006",
-    "title": "소상공인 경영안정자금 시설투자 대출",
-    "deadline": "2026-11-30",
-    "is_loan": true,
-    "target": "소상공인",
-    "summary": "시설 투자 목적 최대 1억원 저금리 대출. 고용 실적 보유 사업장 우대.",
-    "cert_bonus": null,
-    "url": "https://www.semas.or.kr"
-  },
-  {
-    "id": "prog_003",
-    "title": "소상공인 경영안정자금 대출 금리우대형",
-    "deadline": "2026-12-31",
-    "is_loan": true,
-    "target": "소상공인",
-    "summary": "연 2.0% 고정금리로 최대 7000만원 대출. 신용등급과 업종 조건 충족 필요.",
-    "cert_bonus": null,
-    "url": "https://www.semas.or.kr"
   },
   {
     "id": "prog_010",
@@ -115,8 +104,31 @@
     "deadline": "2026-12-31",
     "is_loan": true,
     "target": "중소기업",
+    "field": "자금/금융",
     "summary": "시설·운전자금 목적 최대 10억원 정책대출. 성장유망 업종 중소기업 대상, 금리 연 2.9%.",
     "cert_bonus": "이노비즈·벤처기업 인증 시 우대금리",
     "url": "https://www.kosmes.or.kr"
+  },
+  {
+    "id": "prog_011",
+    "title": "스마트 공장 구축 지원사업 2026",
+    "deadline": "2026-09-30",
+    "is_loan": false,
+    "target": "제조업",
+    "field": "R&D/기술",
+    "summary": "스마트 공장 도입 중소·중견기업에 구축비 최대 50% 최대 5억원 지원. 제조업 한정.",
+    "cert_bonus": "ISO 45001 인증 보유 시 우선 선정",
+    "url": "https://www.smart-factory.kr"
+  },
+  {
+    "id": "prog_012",
+    "title": "소상공인 디지털 전환 지원 온라인 판로 개척",
+    "deadline": "2026-06-30",
+    "is_loan": false,
+    "target": "소상공인",
+    "field": "경영지원",
+    "summary": "온라인 쇼핑몰 구축 SNS 마케팅 비용 최대 300만원 지원. 오프라인 소상공인 전환 우대.",
+    "cert_bonus": null,
+    "url": "https://www.sbiz.or.kr"
   }
 ]

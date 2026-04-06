@@ -134,14 +134,15 @@ def process_with_ai(title: str, content: str) -> dict:
 
 출력 형식 (JSON만, 설명 없이):
 {{
-    "is_loan": boolean (융자/대출이면 true, 보조금/바우처면 false),
-    "target": "소상공인/중소기업/제조업/농업식품/스타트업창업 중 가장 적합한 한 가지 (슬래시 포함 원문 그대로: 소상공인|중소기업|제조업|농업/식품|스타트업/창업)",
+    "is_loan": boolean (융자/대출이면 true, 보조금/바우쳄면 false),
+    "target": "소상공인|중소기업|제조업|농업/식품|스타트업/창업 중 가장 적합 (슬래시 포함 원문 그대로)",
+    "field": "자금/금융|창업지원|R&D/기술|수출/마케팅|경영지원 중 가장 적합 (수식어 포함 원문 그대로)",
     "summary": "핵심 내용 1줄 요약 (갚지 않아도 되는 돈인지 명시, 50자 이내)",
     "cert_bonus": "벤처기업인증/ISO 등 가점 인증명, 없으면 null"
 }}
 """
     if model is None:
-        return {"is_loan": False, "target": "중소기업", "summary": content[:80].strip() or title[:80], "cert_bonus": None}
+        return {"is_loan": False, "target": "중소기업", "field": "경영지원", "summary": content[:80].strip() or title[:80], "cert_bonus": None}
 
     try:
         response = model.generate_content(prompt)
@@ -152,7 +153,6 @@ def process_with_ai(title: str, content: str) -> dict:
         # target 값 정규화
         valid_targets = {'소상공인', '중소기업', '제조업', '농업/식품', '스타트업/창업'}
         raw_target = str(result.get('target', ''))
-        # 유사 문자열 매핑
         if '소상공인' in raw_target:            norm_target = '소상공인'
         elif '중소기업' in raw_target:          norm_target = '중소기업'
         elif '제조' in raw_target:              norm_target = '제조업'
@@ -160,18 +160,27 @@ def process_with_ai(title: str, content: str) -> dict:
         elif '스타트업' in raw_target or '창업' in raw_target: norm_target = '스타트업/창업'
         else:                                   norm_target = '중소기업'
 
+        # field 값 정규화
+        raw_field = str(result.get('field', ''))
+        if '금융' in raw_field or '자금' in raw_field: norm_field = '자금/금융'
+        elif '창업' in raw_field:             norm_field = '창업지원'
+        elif 'R&D' in raw_field or '기술' in raw_field: norm_field = 'R&D/기술'
+        elif '수출' in raw_field or '마케팅' in raw_field: norm_field = '수출/마케팅'
+        else:                                norm_field = '경영지원'
+
         return {
             "is_loan":    bool(result.get("is_loan", False)),
             "target":     norm_target,
+            "field":      norm_field,
             "summary":    str(result.get("summary", "")),
             "cert_bonus": result.get("cert_bonus") or None,
         }
     except json.JSONDecodeError:
         print(f"  ⚠ JSON 파싱 실패: {title[:30]}")
-        return {"is_loan": False, "target": "중소기업", "summary": title[:80], "cert_bonus": None}
+        return {"is_loan": False, "target": "중소기업", "field": "경영지원", "summary": title[:80], "cert_bonus": None}
     except Exception as e:
         print(f"  ❌ Gemini 오류: {e}")
-        return {"is_loan": False, "target": "중소기업", "summary": title[:80], "cert_bonus": None}
+        return {"is_loan": False, "target": "중소기업", "field": "경영지원", "summary": title[:80], "cert_bonus": None}
 
 
 # ──────────────────────────────────────────────────────
@@ -216,11 +225,12 @@ def main():
             "deadline":  deadline,
             "is_loan":   ai["is_loan"],
             "target":    ai["target"],
+            "field":     ai["field"],
             "summary":   ai["summary"],
             "cert_bonus": ai["cert_bonus"],
             "url":       url,
         })
-        print(f"     → {'[융자]' if ai['is_loan'] else '[보조금]'} [{ai['target']}] {ai['summary'][:40]}")
+        print(f"     → {'[융자]' if ai['is_loan'] else '[보조금]'} [{ai['target']}][{ai['field']}] {ai['summary'][:35]}")
         time.sleep(0.8)  # 서버 부하 방지
 
     # ③ 중복 제거 후 병합 (기존 수동 + 신규 크롤링)

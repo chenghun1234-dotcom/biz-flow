@@ -12,6 +12,7 @@ const policies = policiesData as Array<{
   deadline:   string;
   is_loan:    boolean;
   target:     string;
+  field:      string;
   summary:    string;
   cert_bonus: string;
   url:        string;
@@ -21,22 +22,378 @@ const totalGrant  = policies.filter(p => !p.is_loan).length;
 const totalLoan   = policies.filter(p =>  p.is_loan).length;
 const totalAmount = policies.length;
 
-// 업종 카테고리 목록 (동적)
-const TARGET_META: Record<string, { emoji: string; color: string }> = {
-  '소상공인':     { emoji: '🏪', color: '#E53E3E' },
-  '중소기업':     { emoji: '🏢', color: '#1A2B8C' },
-  '제조업':       { emoji: '⚙️',  color: '#744210' },
-  '농업/식품':     { emoji: '🌿', color: '#276749' },
-  '스타트업/창업': { emoji: '🚀', color: '#6B46C1' },
+const TARGET_META: Record<string, { emoji: string }> = {
+  '소상공인':     { emoji: '🏪' },
+  '중소기업':     { emoji: '🏢' },
+  '제조업':       { emoji: '⚙️'  },
+  '농업/식품':     { emoji: '🌿' },
+  '스타트업/창업': { emoji: '🚀' },
+};
+
+const FIELD_META: Record<string, { emoji: string; desc: string }> = {
+  '자금/금융':   { emoji: '💵', desc: '보조금·융자·대출' },
+  'R&D/기술':   { emoji: '🔬', desc: '기술개발·스마트화·바우쳕' },
+  '수출/마케팅': { emoji: '🌍', desc: '해외진출·판로개첩' },
+  '창업지원':   { emoji: '🌟', desc: '예비창업·초기창업사업화' },
+  '경영지원':   { emoji: '📊', desc: '디지털전환·마케팅·컴설팅' },
 };
 
 const targets = Object.keys(TARGET_META);
+const fields  = Object.keys(FIELD_META);
 ---
 
 <BaseLayout
-  title="Biz-Flow | 맞춤형 지원제도 플랫폼 — 소상공인·중소기업 보조금·융자 한눈에"
-  description={`현재 ${totalAmount}개 지원사업 운영 중. 보조금 ${totalGrant}개, 융자 ${totalLoan}개. 업종·매출별 맞춤 필터링.`}
+  title="Biz-Flow | 매춤형 지원제도 플랫폼 — 소상공인·중소기업 보조금·융자 한눈에"
+  description={`현재 ${totalAmount}개 지원사업 운영 중. 보조금 ${totalGrant}개, 융자 ${totalLoan}개. 업종·분야별 매춤 필터링.`}
 >
+
+  <!-- ── 히어로 ───────────────────────── -->
+  <section class="hero">
+    <div class="container hero__inner">
+      <div class="hero__stats">
+        <span class="hero__stat">🎁 보조금 <strong>{totalGrant}</strong></span>
+        <span class="hero__divider">|</span>
+        <span class="hero__stat">💰 융자 <strong>{totalLoan}</strong></span>
+        <span class="hero__divider">|</span>
+        <span class="hero__stat">총 <strong>{totalAmount}</strong>개 운영 중</span>
+      </div>
+      <h1 class="hero__title">
+        내 조건에 매는<br/>
+        <span class="hero__accent">정부지원사업</span>을 찾아드립니다
+      </h1>
+      <p class="hero__desc">업종 · 지원분야 · 지원방식으로 필터하면 <strong>나는데 해당하는 사업만</strong> 보여드립니다.</p>
+
+      <!-- 검색바 -->
+      <div class="hero__search">
+        <span class="search-icon">🔍</span>
+        <input
+          id="search-input"
+          type="text"
+          placeholder="지원사업명으로 검색하세요 예) AI 마케팅, R&D 바우쳕…"
+          autocomplete="off"
+        />
+        <button id="search-clear" class="search-clear" aria-label="초기화" style="display:none">×</button>
+      </div>
+    </div>
+    <div class="hero__deco" aria-hidden="true"></div>
+  </section>
+
+  <!-- ── 필터 패널 ──────────────────── -->
+  <div class="filter-panel">
+    <div class="container">
+
+      <!-- ① 업종 (나는 누구인가?) -->
+      <div class="filter-row">
+        <span class="filter-row__label">🏢 업종</span>
+        <div class="filter-row__btns">
+          <button class="fpill is-active" data-target="all">전체</button>
+          {targets.map(t => (
+            <button class="fpill" data-target={t}>
+              {TARGET_META[t].emoji} {t}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <!-- ② 지원분야 (비용을 무엇에 쓰고 싶은가?) -->
+      <div class="filter-row">
+        <span class="filter-row__label">🎯 분야</span>
+        <div class="filter-row__btns">
+          <button class="fpill is-active" data-field="all">전체</button>
+          {fields.map(f => (
+            <button class="fpill" data-field={f} title={FIELD_META[f].desc}>
+              {FIELD_META[f].emoji} {f}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <!-- ③ 지원방식 (돌려줘야 하는가 아닌가?) -->
+      <div class="filter-row">
+        <span class="filter-row__label">💳 방식</span>
+        <div class="filter-row__btns">
+          <button class="fpill is-active" data-loan="all">전체</button>
+          <button class="fpill" data-loan="false">🎁 보조금 <small>(상환불요)</small></button>
+          <button class="fpill" data-loan="true">💰 융자 <small>(상환필요)</small></button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ── 광고 ──────────────────────────── -->
+  <div class="container" style="margin-top:20px;">
+    <AdBanner slot_id="top-banner" label="광고 영역 (728×90)" />
+  </div>
+
+  <!-- ── 결과 + 카드 그리드 ─────────────── -->
+  <section id="programs" class="programs-section">
+    <div class="container">
+      <p class="result-count" id="result-count">{totalAmount}개 지원사업</p>
+
+      <div class="card-grid" id="card-grid">
+        {policies.map(p => (
+          <PolicyCard
+            id={p.id}
+            title={p.title}
+            deadline={p.deadline}
+            is_loan={p.is_loan}
+            target={p.target}
+            field={p.field}
+            summary={p.summary}
+            cert_bonus={p.cert_bonus}
+            url={p.url}
+          />
+        ))}
+      </div>
+
+      <div id="empty-state" class="empty-state" style="display:none">
+        <p>😅 조건에 매는 지원사업이 없습니다. 필터를 다시 설정해보세요.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── 하단 광고 ──────────────────── -->
+  <div class="container" style="margin-top:32px;">
+    <AdBanner slot_id="bottom-banner" label="광고 영역 (728×90)" />
+  </div>
+</BaseLayout>
+
+<script>
+let activeTarget = 'all';
+let activeField  = 'all';
+let activeLoan   = 'all';
+let searchQuery  = '';
+
+const cards    = document.querySelectorAll<HTMLElement>('.policy-card');
+const countEl  = document.getElementById('result-count')!;
+const emptyEl  = document.getElementById('empty-state')!;
+const searchEl = document.getElementById('search-input') as HTMLInputElement;
+const clearEl  = document.getElementById('search-clear')!;
+
+function applyFilter() {
+  let visible = 0;
+  const q = searchQuery.trim().toLowerCase();
+
+  cards.forEach(card => {
+    const isLoan  = card.dataset.loan   === 'true';
+    const target  = card.dataset.target ?? '';
+    const field   = card.dataset.field  ?? '';
+    const titleEl = card.querySelector('.policy-card__title');
+    const text    = (titleEl?.textContent ?? '').toLowerCase();
+
+    const targetOk = activeTarget === 'all' || target === activeTarget;
+    const fieldOk  = activeField  === 'all' || field  === activeField;
+    const loanOk   = activeLoan   === 'all'
+      || (activeLoan === 'false' && !isLoan)
+      || (activeLoan === 'true'  &&  isLoan);
+    const searchOk = !q || text.includes(q);
+
+    const show = targetOk && fieldOk && loanOk && searchOk;
+    card.style.display = show ? '' : 'none';
+    if (show) visible++;
+  });
+
+  countEl.textContent = `${visible}개 지원사업`;
+  emptyEl.style.display = visible === 0 ? 'block' : 'none';
+}
+
+// 업종 필터
+document.querySelectorAll<HTMLButtonElement>('[data-target]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('[data-target]').forEach(b => b.classList.remove('is-active'));
+    btn.classList.add('is-active');
+    activeTarget = btn.dataset.target!;
+    applyFilter();
+  });
+});
+
+// 분야 필터
+document.querySelectorAll<HTMLButtonElement>('[data-field]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('[data-field]').forEach(b => b.classList.remove('is-active'));
+    btn.classList.add('is-active');
+    activeField = btn.dataset.field!;
+    applyFilter();
+  });
+});
+
+// 지원방식 필터
+document.querySelectorAll<HTMLButtonElement>('[data-loan]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('[data-loan]').forEach(b => b.classList.remove('is-active'));
+    btn.classList.add('is-active');
+    activeLoan = btn.dataset.loan!;
+    applyFilter();
+  });
+});
+
+// 검색
+searchEl?.addEventListener('input', () => {
+  searchQuery = searchEl.value;
+  clearEl.style.display = searchQuery ? 'flex' : 'none';
+  applyFilter();
+});
+
+clearEl?.addEventListener('click', () => {
+  searchEl.value = '';
+  searchQuery = '';
+  clearEl.style.display = 'none';
+  applyFilter();
+});
+</script>
+
+<style>
+/* ── 히어로 ─────────────────────────── */
+.hero {
+  position: relative;
+  background: var(--gradient-hero);
+  color: #fff;
+  padding: 44px 0 52px;
+  overflow: hidden;
+}
+.hero__inner { position: relative; z-index: 1; }
+.hero__stats {
+  display: flex; align-items: center; gap: 12px;
+  margin-bottom: 14px; flex-wrap: wrap;
+}
+.hero__stat { font-size: 13px; opacity: 0.88; }
+.hero__stat strong { font-weight: 800; }
+.hero__divider { opacity: 0.35; }
+.hero__title {
+  font-size: clamp(24px, 4vw, 36px);
+  font-weight: 800; line-height: 1.3;
+  margin-bottom: 10px; letter-spacing: -0.5px;
+}
+.hero__accent { color: #7EFFC5; }
+.hero__desc {
+  font-size: 14px; opacity: 0.85; line-height: 1.65;
+  margin-bottom: 24px;
+}
+.hero__desc strong { color: #7EFFC5; }
+
+/* ── 검색바 ───────────────────────── */
+.hero__search {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border-radius: 50px;
+  padding: 4px 8px 4px 18px;
+  gap: 8px;
+  max-width: 560px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.18);
+}
+.search-icon { font-size: 17px; flex-shrink: 0; }
+.hero__search input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  color: #1a1a2e;
+  background: transparent;
+  padding: 10px 0;
+}
+.hero__search input::placeholder { color: #999; }
+.search-clear {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 26px; height: 26px;
+  border-radius: 50%;
+  background: #eee;
+  border: none;
+  font-size: 15px;
+  color: #666;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+.hero__deco {
+  position: absolute; top: -80px; right: -80px;
+  width: 380px; height: 380px; border-radius: 50%;
+  background: rgba(255,255,255,0.05); pointer-events: none;
+}
+
+/* ── 필터 패널 ─────────────────────── */
+.filter-panel {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-divider);
+  padding: 16px 0;
+}
+.filter-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 8px 0;
+}
+.filter-row + .filter-row {
+  border-top: 1px solid var(--color-divider);
+}
+.filter-row__label {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+  padding-top: 8px;
+  min-width: 52px;
+}
+.filter-row__btns {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+/* 필터 피마케 버튼 */
+.fpill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 14px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 600;
+  background: var(--color-bg);
+  border: 1.5px solid var(--color-divider);
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+.fpill small {
+  font-weight: 400;
+  font-size: 11px;
+  opacity: 0.75;
+}
+.fpill:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background: rgba(26,43,140,0.05);
+}
+.fpill.is-active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #fff;
+}
+
+/* ── 결과 영역 ─────────────────────── */
+.programs-section { padding: 24px 0 48px; }
+.result-count {
+  font-size: 13px;
+  color: var(--color-text-muted);
+  margin-bottom: 16px;
+}
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+.empty-state {
+  text-align: center;
+  padding: 60px 0;
+  color: var(--color-text-muted);
+  font-size: 15px;
+}
+</style>
+
 
   <!-- ── 히어로 ───────────────────────── -->
   <section class="hero">

@@ -5,12 +5,13 @@ export interface Props {
   deadline:   string;
   is_loan:    boolean;
   target:     string;
+  field:      string;
   summary:    string;
   cert_bonus: string;
   url:        string;
 }
 
-const { id, title, deadline, is_loan, target, summary, cert_bonus, url } = Astro.props;
+const { id, title, deadline, is_loan, target, field, summary, cert_bonus, url } = Astro.props;
 
 const base = import.meta.env.BASE_URL;
 
@@ -38,7 +39,7 @@ const typeLabel = is_loan ? '융자' : '보조금';
 const typeClass = is_loan ? 'badge--loan' : 'badge--grant';
 ---
 
-<article class="policy-card" data-loan={String(is_loan)} data-target={target}>
+<article class="policy-card" data-loan={String(is_loan)} data-target={target} data-field={field}>
   <!-- 배지 행 -->
   <div class="policy-card__badges">
     <span class={`badge ${typeClass}`}>

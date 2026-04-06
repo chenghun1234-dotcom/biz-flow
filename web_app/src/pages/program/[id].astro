@@ -28,7 +28,8 @@ const typeLabel = is_loan ? '융자' : '보조금';
 const typeClass = is_loan ? 'badge--loan' : 'badge--grant';
 const typeEmoji = is_loan ? '💰' : '🎁';
 
-const base = import.meta.env.BASE_URL;
+const _b = import.meta.env.BASE_URL.replace(/\/$/, '');
+const base = _b;
 ---
 
 <BaseLayout

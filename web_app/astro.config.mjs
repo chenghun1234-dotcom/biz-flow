@@ -1,15 +1,13 @@
 import { defineConfig } from 'astro/config';
-// import sitemap from '@astrojs/sitemap';  // base 경로 이슈로 일시 비활성화
+// import sitemap from '@astrojs/sitemap';  // 추후 활성화 가능
 
-// GitHub Pages 배포 시 repo 이름을 base로 설정
-// 예: https://chenghun1234-dotcom.github.io/biz-flow/
+// 커스텀 도메인 설정
 export default defineConfig({
-  site: 'https://chenghun1234-dotcom.github.io',
-  base: '/biz-flow',
+  site: 'https://biz-flow.nextfintechai.com',
+  base: '/',
   integrations: [],
   output: 'static',
   build: {
-    // GitHub Pages에 최적화된 정적 빌드
     assets: '_assets',
   },
 });

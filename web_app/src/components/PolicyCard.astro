@@ -13,7 +13,8 @@ export interface Props {
 
 const { id, title, deadline, is_loan, target, field, summary, cert_bonus, url } = Astro.props;
 
-const base = import.meta.env.BASE_URL;
+const _base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const base = _base; // 경로 조합: `${base}/program/id/`
 
 // 마감임박 판단 (30일 이내)
 function isUrgent(deadlineStr: string): boolean {

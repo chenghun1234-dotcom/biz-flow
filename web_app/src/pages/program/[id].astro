@@ -11,6 +11,7 @@ type Policy = {
   title:      string;
   deadline:   string;
   is_loan:    boolean;
+  target:     string;
   summary:    string;
   cert_bonus: string;
   url:        string;
@@ -22,7 +23,7 @@ export async function getStaticPaths() {
 }
 
 const { policy } = Astro.props as { policy: Policy };
-const { title, deadline, is_loan, summary, cert_bonus, url } = policy;
+const { title, deadline, is_loan, target, summary, cert_bonus, url } = policy;
 
 const typeLabel = is_loan ? '융자' : '보조금';
 const typeClass = is_loan ? 'badge--loan' : 'badge--grant';
@@ -65,6 +66,10 @@ const base = import.meta.env.BASE_URL;
         <div class="meta-row">
           <dt>지원 유형</dt>
           <dd>{typeEmoji} {typeLabel}</dd>
+        </div>
+        <div class="meta-row">
+          <dt>대상</dt>
+          <dd>{target}</dd>
         </div>
       </dl>
 

@@ -7,26 +7,25 @@ export interface Props {
 const { slot_id = 'top', label = '광고' } = Astro.props;
 ---
 
+
 <div class="ad-wrap" data-slot={slot_id}>
-  <!-- ✏️ 실제 광고 코드를 아래 주석 해제 후 삽입 -->
+  {/* 카카오 애드핏 300x250 광고 (slot_id === 'kakao-300x250' 일 때만 노출) */}
+  {slot_id === 'kakao-300x250' && (
+    <>
+      <ins class="kakao_ad_area" style="display:none;"
+        data-ad-unit="DAN-Og4rHGPv1Zg5DekB"
+        data-ad-width="300"
+        data-ad-height="250"></ins>
+      <script type="text/javascript" src="//t1.daumcdn.net/kas/static/ba.min.js" async></script>
+    </>
+  )}
 
-  <!-- 카카오 AdFit 예시
-  <ins class="kakao_ad_area"
-    style="display:none;"
-    data-ad-unit="DAN-XXXXXXXXXXXX"
-    data-ad-width="728"
-    data-ad-height="90">
-  </ins>
-  -->
-
-  <!-- A-Sense 예시
-  <div id={`asense-${slot_id}`} class="asense-ad"></div>
-  -->
-
-  <!-- 개발 중 플레이스홀더 -->
-  <div class="ad-placeholder">
-    <span>📢 {label}</span>
-  </div>
+  {/* 개발 중 플레이스홀더 (카카오 광고가 아닐 때만 노출) */}
+  {slot_id !== 'kakao-300x250' && (
+    <div class="ad-placeholder">
+      <span>📢 {label}</span>
+    </div>
+  )}
 </div>
 
 <style>

@@ -1,24 +1,134 @@
 [
-	{
-		"id": "prog_001",
-		"title": "2026 소상공인 AI 마케팅 지원사업",
-		"deadline": "2026-04-09",
-		"is_loan": false,
-		"target": "소상공인",
-		"field": "경영지원",
-		"summary": "소상공인 AI 마케팅 도구 구매 및 교육비 최대 500만원 지원. 제조·서비스·음식업 종사자 신청 가능.",
-		"cert_bonus": "벤처기업 인증 보유 시 우대",
-		"url": "https://www.bizinfo.go.kr"
-	},
-	{
-		"id": "prog_007",
-		"title": "중소기업 혁신 바우처 제조혁신형",
-		"deadline": "2026-07-31",
-		"is_loan": false,
-		"target": "제조업",
-		"field": "R&D/기술",
-		"summary": "제조공정 디지털 전환을 위한 컨설팅·솔루션 구매비 최대 3000만원 지원.",
-		"cert_bonus": "ISO 9001 인증 보유 시 우대",
-		"url": "https://www.kosmes.or.kr"
-	}
+  {
+    "id": "prog_001",
+    "title": "2026 소상공인 AI 마케팅 지원사업",
+    "deadline": "2026-04-09",
+    "is_loan": false,
+    "target": "소상공인",
+    "field": "경영지원",
+    "summary": "소상공인 AI 마케팅 도구 구매 및 교육비 최대 500만원 지원. 제조·서비스·음식업 종사자 신청 가능.",
+    "cert_bonus": "벤처기업 인증 보유 시 우대",
+    "url": "https://www.bizinfo.go.kr"
+  },
+  {
+    "id": "crawl_PBLN_000000000120577",
+    "title": "[중소벤처기업부] [세종] 2026년 1차 지역주력산업육성(지역특화프로젝트 레전드50+)지원 모집공고 (세종 2.0 지능형 모빌리티 부품 및 기능성 바이오 소재 산업)",
+    "deadline": "2026-04-15",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[중소벤처기업부] [세종] 2026년 1차 지역주력산업육성(지역특화프로젝트 레전드50+)지원 모집공고 (세종 2.0 지능형 모빌리티 부품 및 기",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000120577"
+  },
+  {
+    "id": "crawl_PBLN_000000000120576",
+    "title": "[중소벤처기업부] [세종] 2026년 지역주력산업육성(지역특화 프로젝트 레전드 50+ 1.0) 지원모집 공고(세종 사이버보안)",
+    "deadline": "2026-04-15",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[중소벤처기업부] [세종] 2026년 지역주력산업육성(지역특화 프로젝트 레전드 50+ 1.0) 지원모집 공고(세종 사이버보안)",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000120576"
+  },
+  {
+    "id": "crawl_PBLN_000000000120574",
+    "title": "[서울특별시] [서울] 2026년 음식점 미세먼지ㆍ악취 방지시설 설치 지원사업 추가모집 공고",
+    "deadline": "2026-04-15",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[서울특별시] [서울] 2026년 음식점 미세먼지ㆍ악취 방지시설 설치 지원사업 추가모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000120574"
+  },
+  {
+    "id": "crawl_PBLN_000000000120575",
+    "title": "[서울특별시] [서울] 2026년 미래산업 육성 및 기업 지원 사업 공고",
+    "deadline": "2026-04-17",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[서울특별시] [서울] 2026년 미래산업 육성 및 기업 지원 사업 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000120575"
+  },
+  {
+    "id": "crawl_PBLN_000000000120572",
+    "title": "[인천광역시] 2026년 인천 블록체인 기술개발 지원사업 모집 공고",
+    "deadline": "2026-04-17",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[인천광역시] 2026년 인천 블록체인 기술개발 지원사업 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000120572"
+  },
+  {
+    "id": "crawl_PBLN_000000000120571",
+    "title": "[과학기술정보통신부] 2026년 4차 정보보호 인증제품 조달청 벤처나라 추천기업 모집 공고(4월 추천)",
+    "deadline": "2026-04-22",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[과학기술정보통신부] 2026년 4차 정보보호 인증제품 조달청 벤처나라 추천기업 모집 공고(4월 추천)",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000120571"
+  },
+  {
+    "id": "crawl_PBLN_000000000120569",
+    "title": "[산림청] 2026년 혁신제품 지정기간 연장(2차 연장) 공고",
+    "deadline": "2026-04-22",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[산림청] 2026년 혁신제품 지정기간 연장(2차 연장) 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000120569"
+  },
+  {
+    "id": "crawl_PBLN_000000000120568",
+    "title": "[문화체육관광부] 2026년 오늘전통 창업 선도기업 공고",
+    "deadline": "2026-04-30",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[문화체육관광부] 2026년 오늘전통 창업 선도기업 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000120568"
+  },
+  {
+    "id": "crawl_PBLN_000000000120573",
+    "title": "[경기도] [경기] 하남시 2026년 우수공예품 개발 지원계획 공고",
+    "deadline": "2026-06-04",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[경기도] [경기] 하남시 2026년 우수공예품 개발 지원계획 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000120573"
+  },
+  {
+    "id": "prog_007",
+    "title": "중소기업 혁신 바우처 제조혁신형",
+    "deadline": "2026-07-31",
+    "is_loan": false,
+    "target": "제조업",
+    "field": "R&D/기술",
+    "summary": "제조공정 디지털 전환을 위한 컨설팅·솔루션 구매비 최대 3000만원 지원.",
+    "cert_bonus": "ISO 9001 인증 보유 시 우대",
+    "url": "https://www.kosmes.or.kr"
+  },
+  {
+    "id": "crawl_PBLN_000000000120570",
+    "title": "[인천광역시] [인천] 2026년 상반기 경영안정자금 이차보전 지원 추가접수 공고(중소기업 육성자금 지원 사업)",
+    "deadline": "예산 소진시까지",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[인천광역시] [인천] 2026년 상반기 경영안정자금 이차보전 지원 추가접수 공고(중소기업 육성자금 지원 사업)",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000120570"
+  }
 ]

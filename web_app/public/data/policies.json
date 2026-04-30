@@ -11,81 +11,114 @@
     "url": "https://www.bizinfo.go.kr"
   },
   {
-    "id": "crawl_PBLN_000000000121473",
-    "title": "[전라남도] 2026년 고흥군 청년 창업 도전 프로젝트 참여자 모집 연장 공고",
-    "deadline": "2026-05-07",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[전라남도] 2026년 고흥군 청년 창업 도전 프로젝트 참여자 모집 연장 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000121473"
-  },
-  {
-    "id": "crawl_PBLN_000000000121471",
-    "title": "[기후에너지환경부] 2026년 2차 전력산업정책개발 신규지원 대상과제 재공고",
+    "id": "crawl_PBLN_000000000121531",
+    "title": "[세종특별자치시] [세종] 2026년 SW융합 신규 비즈니스 모델 수립 지원사업 모집 재공고(SW융합클러스터2.0)",
     "deadline": "2026-05-08",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[기후에너지환경부] 2026년 2차 전력산업정책개발 신규지원 대상과제 재공고",
+    "summary": "[세종특별자치시] [세종] 2026년 SW융합 신규 비즈니스 모델 수립 지원사업 모집 재공고(SW융합클러스터2.0)",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000121471"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000121531"
   },
   {
-    "id": "crawl_PBLN_000000000121464",
-    "title": "[경상북도] [경북] 2026년 일본 동경 선물용품 잡화 전시회회(GIFTEX Tokyo) 경북 공동관 참가기업 모집 공고",
-    "deadline": "2026-05-13",
+    "id": "crawl_PBLN_000000000121524",
+    "title": "[전북특별자치도] [전북] 2026년 SW강소기업 도약 패키지 지원사업 공고",
+    "deadline": "2026-05-14",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[경상북도] [경북] 2026년 일본 동경 선물용품 잡화 전시회회(GIFTEX Tokyo) 경북 공동관 참가기업 모집 공고",
+    "summary": "[전북특별자치도] [전북] 2026년 SW강소기업 도약 패키지 지원사업 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000121464"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000121524"
   },
   {
-    "id": "crawl_PBLN_000000000121469",
-    "title": "[부산광역시] [부산] 정보보호기업 성장지원 모집 공고",
+    "id": "crawl_PBLN_000000000121527",
+    "title": "[충청남도] 2026년 2차 서천군 해양수산자원 산업화 육성 지원(바이오) 수혜기업 모집 공고",
     "deadline": "2026-05-15",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[부산광역시] [부산] 정보보호기업 성장지원 모집 공고",
+    "summary": "[충청남도] 2026년 2차 서천군 해양수산자원 산업화 육성 지원(바이오) 수혜기업 모집 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000121469"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000121527"
   },
   {
-    "id": "crawl_PBLN_000000000121468",
-    "title": "[강원특별자치도] [강원] 인제군 2026년 중소기업 수출대금 보장 단체보험 가입 지원사업 참가기업 모집 공고",
-    "deadline": "2026-05-15",
+    "id": "crawl_PBLN_000000000121532",
+    "title": "[부산광역시] [부산] 2026년 2차 중소기업 디자인개발 지원사업 지원과제  모집 공고",
+    "deadline": "2026-05-19",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[강원특별자치도] [강원] 인제군 2026년 중소기업 수출대금 보장 단체보험 가입 지원사업 참가기업 모집 공고",
+    "summary": "[부산광역시] [부산] 2026년 2차 중소기업 디자인개발 지원사업 지원과제  모집 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000121468"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000121532"
   },
   {
-    "id": "crawl_PBLN_000000000121470",
-    "title": "[대전광역시] [대전] 2026년 대전인쇄마켓 플랫폼 구축 사업 모집 공고",
+    "id": "crawl_PBLN_000000000121526",
+    "title": "[충청남도] [충남] 2026년 정보보호 신규 비즈니스 모델 발굴 및 기업지원 모집 공고(지역 거점 정보보호 클러스터 구축 사업)",
     "deadline": "2026-05-22",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[대전광역시] [대전] 2026년 대전인쇄마켓 플랫폼 구축 사업 모집 공고",
+    "summary": "[충청남도] [충남] 2026년 정보보호 신규 비즈니스 모델 발굴 및 기업지원 모집 공고(지역 거점 정보보호 클러스터 구축 사업)",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000121470"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000121526"
   },
   {
-    "id": "crawl_PBLN_000000000121472",
-    "title": "[기후에너지환경부] 2026년 2차 배출권거래제 할당대상업체 탄소중립 컨설팅 사업 공고",
+    "id": "crawl_PBLN_000000000121525",
+    "title": "[교육부] [충북] 2026년 지역혁신중심 대학지원체계(RISE) AIㆍ스마트제조 연계 사업화 패키지 지원사업 참여기업 모집 공고",
+    "deadline": "2026-05-22",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[교육부] [충북] 2026년 지역혁신중심 대학지원체계(RISE) AIㆍ스마트제조 연계 사업화 패키지 지원사업 참여기업 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000121525"
+  },
+  {
+    "id": "crawl_PBLN_000000000121533",
+    "title": "[대전광역시] [대전] 2026년 2차 Start-up 기술창출 사업화 지원사업 지원기업 모집 공고",
     "deadline": "2026-05-27",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[기후에너지환경부] 2026년 2차 배출권거래제 할당대상업체 탄소중립 컨설팅 사업 공고",
+    "summary": "[대전광역시] [대전] 2026년 2차 Start-up 기술창출 사업화 지원사업 지원기업 모집 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000121472"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000121533"
+  },
+  {
+    "id": "crawl_PBLN_000000000121530",
+    "title": "[대구광역시] 2026년 대구 차세대선도기술개발사업 신규지원 시행계획 공고",
+    "deadline": "2026-05-27",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[대구광역시] 2026년 대구 차세대선도기술개발사업 신규지원 시행계획 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000121530"
+  },
+  {
+    "id": "crawl_PBLN_000000000121528",
+    "title": "[경상북도] [경북] 2026년 중소기업 인증브랜드 실라리안 신규기업 모집 공고",
+    "deadline": "2026-05-31",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[경상북도] [경북] 2026년 중소기업 인증브랜드 실라리안 신규기업 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000121528"
+  },
+  {
+    "id": "crawl_PBLN_000000000121529",
+    "title": "[전라남도] [전남] 2026년 일자리 우수기업 인증 시행계획 공고",
+    "deadline": "2026-07-10",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[전라남도] [전남] 2026년 일자리 우수기업 인증 시행계획 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000121529"
   },
   {
     "id": "prog_007",
@@ -97,38 +130,5 @@
     "summary": "제조공정 디지털 전환을 위한 컨설팅·솔루션 구매비 최대 3000만원 지원.",
     "cert_bonus": "ISO 9001 인증 보유 시 우대",
     "url": "https://www.kosmes.or.kr"
-  },
-  {
-    "id": "crawl_PBLN_000000000121467",
-    "title": "[경상북도] [경북] 포항시 2026년 소상공인 카드수수료 지원사업 참여업체 모집 공고",
-    "deadline": "예산 소진시까지",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[경상북도] [경북] 포항시 2026년 소상공인 카드수수료 지원사업 참여업체 모집 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000121467"
-  },
-  {
-    "id": "crawl_PBLN_000000000121466",
-    "title": "[경상북도] [경북] 경산시 2026년 중소기업 기숙사 임차비 지원사업 참가기업 모집 공고",
-    "deadline": "예산 소진시까지",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[경상북도] [경북] 경산시 2026년 중소기업 기숙사 임차비 지원사업 참가기업 모집 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000121466"
-  },
-  {
-    "id": "crawl_PBLN_000000000121465",
-    "title": "[산업통상부] [부산ㆍ울산ㆍ경남] 2026년 동남권 지역혁신클러스터육성사업(비R&D) 통합 공고",
-    "deadline": "프로그램별 상이",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[산업통상부] [부산ㆍ울산ㆍ경남] 2026년 동남권 지역혁신클러스터육성사업(비R&D) 통합 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000121465"
   }
 ]

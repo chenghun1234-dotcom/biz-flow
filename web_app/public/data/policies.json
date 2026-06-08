@@ -11,114 +11,81 @@
     "url": "https://www.bizinfo.go.kr"
   },
   {
-    "id": "crawl_PBLN_000000000122840",
-    "title": "[경기도] [경기] 2026년 중소기업 인플루언서 마케팅 지원사업 참여기업 모집 공고",
-    "deadline": "2026-06-15",
+    "id": "crawl_PBLN_000000000122905",
+    "title": "[중소벤처기업부] [세종] 2026년 2차 지역주력산업육성(지역특화 프로젝트 레전드 50+ 1.0) 지원모집 공고(세종 사이버보안)",
+    "deadline": "2026-06-12",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[경기도] [경기] 2026년 중소기업 인플루언서 마케팅 지원사업 참여기업 모집 공고",
+    "summary": "[중소벤처기업부] [세종] 2026년 2차 지역주력산업육성(지역특화 프로젝트 레전드 50+ 1.0) 지원모집 공고(세종 사이버보안)",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122840"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122905"
   },
   {
-    "id": "crawl_PBLN_000000000122848",
-    "title": "[문화체육관광부] 2026년 마켓플레이스 특화 비즈매칭 뉴욕 코믹콘(New York Comic Con) 참가기업 연장ㆍ추가모집 공고",
-    "deadline": "2026-06-17",
+    "id": "crawl_PBLN_000000000122902",
+    "title": "[중소벤처기업부] [전북] 2026년 베트남 K-브랜드 EXPO(Mega-Us) 참여기업 모집 공고",
+    "deadline": "2026-06-12",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[문화체육관광부] 2026년 마켓플레이스 특화 비즈매칭 뉴욕 코믹콘(New York Comic Con) 참가기업 연장ㆍ추가모집 공고",
+    "summary": "[중소벤처기업부] [전북] 2026년 베트남 K-브랜드 EXPO(Mega-Us) 참여기업 모집 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122848"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122902"
   },
   {
-    "id": "crawl_PBLN_000000000122847",
-    "title": "[경상북도] [경북] 2026년 경북 가상융합산업혁신센터 통합 기업지원사업 참여기업 모집 재공고",
+    "id": "crawl_PBLN_000000000122899",
+    "title": "[경기도] [경기] 하남시 2026년 사회적경제 창업캠퍼스 특성화과정 참여자 모집 공고",
+    "deadline": "2026-06-18",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[경기도] [경기] 하남시 2026년 사회적경제 창업캠퍼스 특성화과정 참여자 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122899"
+  },
+  {
+    "id": "crawl_PBLN_000000000122903",
+    "title": "[경기도] [경기] 시흥시 2026년 시흥창업센터 스타트업 성장지원 사업 공고",
     "deadline": "2026-06-19",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[경상북도] [경북] 2026년 경북 가상융합산업혁신센터 통합 기업지원사업 참여기업 모집 재공고",
+    "summary": "[경기도] [경기] 시흥시 2026년 시흥창업센터 스타트업 성장지원 사업 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122847"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122903"
   },
   {
-    "id": "crawl_PBLN_000000000122844",
-    "title": "[경기도] [경기] 군포시 2026년 하반기 국내전시회 개별참가 지원사업 참여기업 모집 공고",
-    "deadline": "2026-06-19",
+    "id": "crawl_PBLN_000000000122904",
+    "title": "[과학기술정보통신부] 2026년 AI 서비스 개발ㆍ확산 지원사업 모집 공고(동대구벤처밸리 AI테크포트 구축)",
+    "deadline": "2026-06-29",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[경기도] [경기] 군포시 2026년 하반기 국내전시회 개별참가 지원사업 참여기업 모집 공고",
+    "summary": "[과학기술정보통신부] 2026년 AI 서비스 개발ㆍ확산 지원사업 모집 공고(동대구벤처밸리 AI테크포트 구축)",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122844"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122904"
   },
   {
-    "id": "crawl_PBLN_000000000122842",
-    "title": "[대구광역시] [대구] 2026년 관광 숙박시설 환경개선 참가 업체 모집 공고",
-    "deadline": "2026-06-19",
+    "id": "crawl_PBLN_000000000122901",
+    "title": "[산업통상부] 2026년 2차 대경권 지역혁신클러스터육성(비R&D) 글로벌 마케팅 프로그램 수혜기업 모집 공고",
+    "deadline": "2026-06-30",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[대구광역시] [대구] 2026년 관광 숙박시설 환경개선 참가 업체 모집 공고",
+    "summary": "[산업통상부] 2026년 2차 대경권 지역혁신클러스터육성(비R&D) 글로벌 마케팅 프로그램 수혜기업 모집 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122842"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122901"
   },
   {
-    "id": "crawl_PBLN_000000000122841",
-    "title": "[경기도] [경기] 하남시 2026년 맞춤형 온라인 마케팅 지원사업 참여기업 모집 공고(소상공인 마케팅 판로지원 사업)",
-    "deadline": "2026-06-19",
+    "id": "crawl_PBLN_000000000122898",
+    "title": "[방위사업청] 2026년 국방기술을 활용한 창업경진대회 모집 공고",
+    "deadline": "2026-06-30",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[경기도] [경기] 하남시 2026년 맞춤형 온라인 마케팅 지원사업 참여기업 모집 공고(소상공인 마케팅 판로지원 사업)",
+    "summary": "[방위사업청] 2026년 국방기술을 활용한 창업경진대회 모집 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122841"
-  },
-  {
-    "id": "crawl_PBLN_000000000122839",
-    "title": "[부산광역시] [부산] BGC 예비 개발자 점프업 지원 사업 참가자 모집 공고",
-    "deadline": "2026-06-22",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[부산광역시] [부산] BGC 예비 개발자 점프업 지원 사업 참가자 모집 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122839"
-  },
-  {
-    "id": "crawl_PBLN_000000000122846",
-    "title": "[문화체육관광부] 2026년 우수인재 연계 기업인턴십 참여 기업 모집 공고",
-    "deadline": "2026-06-23",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[문화체육관광부] 2026년 우수인재 연계 기업인턴십 참여 기업 모집 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122846"
-  },
-  {
-    "id": "crawl_PBLN_000000000122845",
-    "title": "[문화체육관광부] K-뷰티 브랜드의 유럽 시장 진출을 위한 Pitti Fragranze 24 CODE KOREA 참여브랜드 모집 공고",
-    "deadline": "2026-06-23",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[문화체육관광부] K-뷰티 브랜드의 유럽 시장 진출을 위한 Pitti Fragranze 24 CODE KOREA 참여브랜드 모집 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122845"
-  },
-  {
-    "id": "crawl_PBLN_000000000122843",
-    "title": "[강원특별자치도] [강원] 2026년 중앙아시아 의료기기 로드쇼 참가기업 모집 공고",
-    "deadline": "2026-06-26",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[강원특별자치도] [강원] 2026년 중앙아시아 의료기기 로드쇼 참가기업 모집 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122843"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122898"
   },
   {
     "id": "prog_007",
@@ -130,5 +97,38 @@
     "summary": "제조공정 디지털 전환을 위한 컨설팅·솔루션 구매비 최대 3000만원 지원.",
     "cert_bonus": "ISO 9001 인증 보유 시 우대",
     "url": "https://www.kosmes.or.kr"
+  },
+  {
+    "id": "crawl_PBLN_000000000122907",
+    "title": "[세종특별자치시] [세종] 2026년 디지털 콘텐츠 산업 규제개혁 어드바이저 참여기업 모집 공고(SW융합클러스터2.0(특화산업 강화))",
+    "deadline": "예산 소진시까지",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[세종특별자치시] [세종] 2026년 디지털 콘텐츠 산업 규제개혁 어드바이저 참여기업 모집 공고(SW융합클러스터2.0(특화산업 강화))",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122907"
+  },
+  {
+    "id": "crawl_PBLN_000000000122906",
+    "title": "[고용노동부] [부산ㆍ울산ㆍ경남] 2026년 부ㆍ울ㆍ경 3T(Together Towards Tomorrow) 협력 파트너십 참여기업 모집 공고",
+    "deadline": "예산 소진시까지",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[고용노동부] [부산ㆍ울산ㆍ경남] 2026년 부ㆍ울ㆍ경 3T(Together Towards Tomorrow) 협력 파트너십 참여기업 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122906"
+  },
+  {
+    "id": "crawl_PBLN_000000000122900",
+    "title": "[경기도] [경기] 2026년 수질 자동측정기기 설치운영관리비 지원사업 추가 모집 공고",
+    "deadline": "예산 소진시까지",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[경기도] [경기] 2026년 수질 자동측정기기 설치운영관리비 지원사업 추가 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000122900"
   }
 ]

@@ -11,6 +11,116 @@
     "url": "https://www.bizinfo.go.kr"
   },
   {
+    "id": "crawl_PBLN_000000000123086",
+    "title": "[대전광역시] 2026년 대전 원자력 강소기업 성장견인 지원사업 추가모집 연장 공고",
+    "deadline": "2026-06-17",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[대전광역시] 2026년 대전 원자력 강소기업 성장견인 지원사업 추가모집 연장 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123086"
+  },
+  {
+    "id": "crawl_PBLN_000000000123081",
+    "title": "[인천광역시] [인천] 2026년 푸드위크 코리아(FOOD WEEK KOREA 2026) 참가기업 모집 공고(6차산업 경쟁력 강화 지원사업)",
+    "deadline": "2026-06-19",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[인천광역시] [인천] 2026년 푸드위크 코리아(FOOD WEEK KOREA 2026) 참가기업 모집 공고(6차산업 경쟁력 강화 지원사업)",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123081"
+  },
+  {
+    "id": "crawl_PBLN_000000000123082",
+    "title": "[경상남도] [경남] 2026 일본 동경 씨푸드 박람회 참가 지원사업 참가업체(수산식품) 모집 공고",
+    "deadline": "2026-06-21",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[경상남도] [경남] 2026 일본 동경 씨푸드 박람회 참가 지원사업 참가업체(수산식품) 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123082"
+  },
+  {
+    "id": "crawl_PBLN_000000000123088",
+    "title": "[경상북도] [경북] 안동시 2026년 안동형 일자리사업 기업맞춤형 지원사업 참여기업 모집 공고",
+    "deadline": "2026-06-22",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[경상북도] [경북] 안동시 2026년 안동형 일자리사업 기업맞춤형 지원사업 참여기업 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123088"
+  },
+  {
+    "id": "crawl_PBLN_000000000123089",
+    "title": "[충청남도] [충남] 아산시 2026년 농공단지 물류비 지원사업 참여기업 모집 공고",
+    "deadline": "2026-06-24",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[충청남도] [충남] 아산시 2026년 농공단지 물류비 지원사업 참여기업 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123089"
+  },
+  {
+    "id": "crawl_PBLN_000000000123080",
+    "title": "[충청남도] [충남] 천안시 AX 실증기업 모집 공고",
+    "deadline": "2026-06-25",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[충청남도] [충남] 천안시 AX 실증기업 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123080"
+  },
+  {
+    "id": "crawl_PBLN_000000000123079",
+    "title": "[경상북도] [경북] 2026년 중소기업 인증브랜드 실라리안 해외 시장 개척 지원 참여기업 모집 공고",
+    "deadline": "2026-06-26",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[경상북도] [경북] 2026년 중소기업 인증브랜드 실라리안 해외 시장 개척 지원 참여기업 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123079"
+  },
+  {
+    "id": "crawl_PBLN_000000000123085",
+    "title": "[과학기술정보통신부] 2026년 대구 중앙 및 지역 R&D과제 기획ㆍ유치 지원사업 신규과제 공고",
+    "deadline": "2026-06-30",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[과학기술정보통신부] 2026년 대구 중앙 및 지역 R&D과제 기획ㆍ유치 지원사업 신규과제 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123085"
+  },
+  {
+    "id": "crawl_PBLN_000000000123084",
+    "title": "[인천광역시] [인천] 2026년 수요기업 대응형 기술전환 지원 컨설팅 수요기업 모집 공고(고강도 고방열 경량금속소재 부품화 실증 기반구축사업)",
+    "deadline": "2026-06-30",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[인천광역시] [인천] 2026년 수요기업 대응형 기술전환 지원 컨설팅 수요기업 모집 공고(고강도 고방열 경량금속소재 부품화 실증 기반구축사업)",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123084"
+  },
+  {
+    "id": "crawl_PBLN_000000000123087",
+    "title": "[문화체육관광부] 2026년 하반기 한국영화 기획개발지원사업 제작사부문(초기기획) 사업 공고",
+    "deadline": "2026-07-10",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[문화체육관광부] 2026년 하반기 한국영화 기획개발지원사업 제작사부문(초기기획) 사업 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123087"
+  },
+  {
     "id": "prog_007",
     "title": "중소기업 혁신 바우처 제조혁신형",
     "deadline": "2026-07-31",

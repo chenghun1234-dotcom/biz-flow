@@ -11,6 +11,105 @@
     "url": "https://www.bizinfo.go.kr"
   },
   {
+    "id": "crawl_PBLN_000000000123522",
+    "title": "[중소벤처기업부] [제주] 서귀포시 2026년 3차 방문객을 위한 지능형 여행지원산업 기업지원프로그램 수혜기업 모집 공고(시군구연고산업 육성사업)",
+    "deadline": "2026-06-30",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[중소벤처기업부] [제주] 서귀포시 2026년 3차 방문객을 위한 지능형 여행지원산업 기업지원프로그램 수혜기업 모집 공고(시군구연고산업 육성사업",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123522"
+  },
+  {
+    "id": "crawl_PBLN_000000000123521",
+    "title": "[보건복지부] 2026년 중국 추계 의료기기전시회(CMEF Beijing 2026) 한국관 참여기업 모집 공고",
+    "deadline": "2026-06-30",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[보건복지부] 2026년 중국 추계 의료기기전시회(CMEF Beijing 2026) 한국관 참여기업 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123521"
+  },
+  {
+    "id": "crawl_PBLN_000000000123518",
+    "title": "[경기도] [경기] 부천시 2026년 인공지능(AI) 클라우드 컴퓨팅 활용 지원사업 추가모집 공고",
+    "deadline": "2026-06-30",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[경기도] [경기] 부천시 2026년 인공지능(AI) 클라우드 컴퓨팅 활용 지원사업 추가모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123518"
+  },
+  {
+    "id": "crawl_PBLN_000000000123526",
+    "title": "[충청남도] [충남] 2026년 산학연 협동프로그램 참여기업 지원사업 모집 재공고(테크노파크 생산장비 고도화)",
+    "deadline": "2026-07-01",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[충청남도] [충남] 2026년 산학연 협동프로그램 참여기업 지원사업 모집 재공고(테크노파크 생산장비 고도화)",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123526"
+  },
+  {
+    "id": "crawl_PBLN_000000000123520",
+    "title": "[중소벤처기업부] [제주] 2026년 2차 지역기업 성장사다리 지원사업 공고",
+    "deadline": "2026-07-02",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[중소벤처기업부] [제주] 2026년 2차 지역기업 성장사다리 지원사업 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123520"
+  },
+  {
+    "id": "crawl_PBLN_000000000123519",
+    "title": "[경상북도] [경북] 2026년 경영혁신 외식서비스 지원 사업 참여자 모집 공고",
+    "deadline": "2026-07-03",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[경상북도] [경북] 2026년 경영혁신 외식서비스 지원 사업 참여자 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123519"
+  },
+  {
+    "id": "crawl_PBLN_000000000123525",
+    "title": "[충청남도] [충남ㆍ충북ㆍ대전ㆍ세종] 2026년 2차 기업 지원 프로그램(비R&D) 지원대상 모집 공고(미래차 산업 혁신 지원사업)",
+    "deadline": "2026-07-08",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[충청남도] [충남ㆍ충북ㆍ대전ㆍ세종] 2026년 2차 기업 지원 프로그램(비R&D) 지원대상 모집 공고(미래차 산업 혁신 지원사업)",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123525"
+  },
+  {
+    "id": "crawl_PBLN_000000000123527",
+    "title": "[경상북도] [경북] 안동시 2026년 푸드테크 상용화모델 개발 및 실증사업 수혜기업 모집 공고",
+    "deadline": "2026-07-10",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[경상북도] [경북] 안동시 2026년 푸드테크 상용화모델 개발 및 실증사업 수혜기업 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123527"
+  },
+  {
+    "id": "crawl_PBLN_000000000123524",
+    "title": "[경상북도] [경북] 경산시 2026년 푸드테크 상용화모델 개발 및 실증사업 수혜기업 모집 공고",
+    "deadline": "2026-07-10",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[경상북도] [경북] 경산시 2026년 푸드테크 상용화모델 개발 및 실증사업 수혜기업 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123524"
+  },
+  {
     "id": "prog_007",
     "title": "중소기업 혁신 바우처 제조혁신형",
     "deadline": "2026-07-31",
@@ -20,5 +119,16 @@
     "summary": "제조공정 디지털 전환을 위한 컨설팅·솔루션 구매비 최대 3000만원 지원.",
     "cert_bonus": "ISO 9001 인증 보유 시 우대",
     "url": "https://www.kosmes.or.kr"
+  },
+  {
+    "id": "crawl_PBLN_000000000123523",
+    "title": "[보건복지부] 2026년 바이오헬스 글로벌 수출부대비용 지원 신청 모집 공고",
+    "deadline": "예산 소진시까지",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[보건복지부] 2026년 바이오헬스 글로벌 수출부대비용 지원 신청 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123523"
   }
 ]

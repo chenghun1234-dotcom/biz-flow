@@ -11,6 +11,72 @@
     "url": "https://www.bizinfo.go.kr"
   },
   {
+    "id": "crawl_PBLN_000000000123845",
+    "title": "[인천광역시] [인천] 2026년 2차 IFEZ ESG 경영 컨설팅 참여 기업 모집 공고(인천공급망ESG지원센터)",
+    "deadline": "2026-07-10",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[인천광역시] [인천] 2026년 2차 IFEZ ESG 경영 컨설팅 참여 기업 모집 공고(인천공급망ESG지원센터)",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123845"
+  },
+  {
+    "id": "crawl_PBLN_000000000123849",
+    "title": "[충청남도] [충남] 천안시 AIㆍ전략산업 실현기술(Enable Tech)개발  지원사업 참여 컨소시엄 모집 공고",
+    "deadline": "2026-07-15",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[충청남도] [충남] 천안시 AIㆍ전략산업 실현기술(Enable Tech)개발  지원사업 참여 컨소시엄 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123849"
+  },
+  {
+    "id": "crawl_PBLN_000000000123850",
+    "title": "[서울특별시] [서울] 2026년 DDP 쇼룸 패션기업 PoC 지원 모집 공고",
+    "deadline": "2026-07-16",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[서울특별시] [서울] 2026년 DDP 쇼룸 패션기업 PoC 지원 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123850"
+  },
+  {
+    "id": "crawl_PBLN_000000000123843",
+    "title": "[전남광주통합특별시] [전남광주] 북구 2026년 3차 지식재산 긴급지원(지식재산권리화 지원) 사업 공고",
+    "deadline": "2026-07-16",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[전남광주통합특별시] [전남광주] 북구 2026년 3차 지식재산 긴급지원(지식재산권리화 지원) 사업 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123843"
+  },
+  {
+    "id": "crawl_PBLN_000000000123848",
+    "title": "[경기도] [경기] 평택시 2026년 2차 해외플랫폼 입점 지원사업 모집 공고",
+    "deadline": "2026-07-17",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[경기도] [경기] 평택시 2026년 2차 해외플랫폼 입점 지원사업 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123848"
+  },
+  {
+    "id": "crawl_PBLN_000000000123846",
+    "title": "[방위사업청] 2026년 민ㆍ군규격표준화사업 연구개발과제 주관연구개발기관 공고",
+    "deadline": "2026-07-30",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[방위사업청] 2026년 민ㆍ군규격표준화사업 연구개발과제 주관연구개발기관 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123846"
+  },
+  {
     "id": "prog_007",
     "title": "중소기업 혁신 바우처 제조혁신형",
     "deadline": "2026-07-31",
@@ -20,5 +86,49 @@
     "summary": "제조공정 디지털 전환을 위한 컨설팅·솔루션 구매비 최대 3000만원 지원.",
     "cert_bonus": "ISO 9001 인증 보유 시 우대",
     "url": "https://www.kosmes.or.kr"
+  },
+  {
+    "id": "crawl_PBLN_000000000123847",
+    "title": "[경기도] [경기] 평택시 2026년 우수기업 선정 지원사업 모집 공고",
+    "deadline": "2026-08-13",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[경기도] [경기] 평택시 2026년 우수기업 선정 지원사업 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123847"
+  },
+  {
+    "id": "crawl_PBLN_000000000123841",
+    "title": "[부산광역시] [부산] 2026년 게임ㆍ콘텐츠 기업을 위한 무료 법률 자문 오피스아워 상시 모집 공고",
+    "deadline": "상시 접수",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[부산광역시] [부산] 2026년 게임ㆍ콘텐츠 기업을 위한 무료 법률 자문 오피스아워 상시 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123841"
+  },
+  {
+    "id": "crawl_PBLN_000000000123844",
+    "title": "[서울특별시] [서울] 2026년 하반기 중장년 소상공인 디지털 전환지원 사업 모집 공고",
+    "deadline": "예산 소진시까지",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[서울특별시] [서울] 2026년 하반기 중장년 소상공인 디지털 전환지원 사업 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123844"
+  },
+  {
+    "id": "crawl_PBLN_000000000123842",
+    "title": "[서울특별시] [서울] 2026년 하반기 위기 소상공인 조기발굴 및 선제지원(Track2) 사업 모집 공고",
+    "deadline": "예산 소진시까지",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[서울특별시] [서울] 2026년 하반기 위기 소상공인 조기발굴 및 선제지원(Track2) 사업 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000123842"
   }
 ]

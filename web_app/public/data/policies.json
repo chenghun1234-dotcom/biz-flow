@@ -11,83 +11,6 @@
     "url": "https://www.bizinfo.go.kr"
   },
   {
-    "id": "crawl_PBLN_000000000124194",
-    "title": "[중소벤처기업부] [충남] 공주시 2026년 베트남 K-브랜드 EXPO 참가지원 참여기업 모집 공고(K-푸드 공주알밤 제품의 글로벌 사업(시군구 연고산업 육성사업))",
-    "deadline": "2026-07-14",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[중소벤처기업부] [충남] 공주시 2026년 베트남 K-브랜드 EXPO 참가지원 참여기업 모집 공고(K-푸드 공주알밤 제품의 글로벌 사업(시군구",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124194"
-  },
-  {
-    "id": "crawl_PBLN_000000000124201",
-    "title": "[중소벤처기업부] [충북] 제천시 2026년 3차 지방소멸 대응을 위한 천연물산업 혁신 프로젝트 수혜기업 모집 공고(시군구연고산업육성사업 지원모집)",
-    "deadline": "2026-07-16",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[중소벤처기업부] [충북] 제천시 2026년 3차 지방소멸 대응을 위한 천연물산업 혁신 프로젝트 수혜기업 모집 공고(시군구연고산업육성사업 지원모",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124201"
-  },
-  {
-    "id": "crawl_PBLN_000000000124197",
-    "title": "[충청남도] [충남] 2026년 3차 정보보호 신규 비즈니스 모델 발굴 및 기업지원 모집 재공고(지역 거점 정보보호 클러스터 구축 사업)",
-    "deadline": "2026-07-17",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[충청남도] [충남] 2026년 3차 정보보호 신규 비즈니스 모델 발굴 및 기업지원 모집 재공고(지역 거점 정보보호 클러스터 구축 사업)",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124197"
-  },
-  {
-    "id": "crawl_PBLN_000000000124192",
-    "title": "[중소벤처기업부] [제주] 서귀포시 2026년 4차 방문객을 위한 지능형 여행지원산업 기업지원프로그램 수혜기업 모집 공고(시군구연고산업 육성사업)",
-    "deadline": "2026-07-20",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[중소벤처기업부] [제주] 서귀포시 2026년 4차 방문객을 위한 지능형 여행지원산업 기업지원프로그램 수혜기업 모집 공고(시군구연고산업 육성사업",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124192"
-  },
-  {
-    "id": "crawl_PBLN_000000000124191",
-    "title": "[제주특별자치도] [제주] 지역 AI 대전환을 위한 바이오 기업 AI 솔루션 활용 지원사업 PoC 모집 공고",
-    "deadline": "2026-07-22",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[제주특별자치도] [제주] 지역 AI 대전환을 위한 바이오 기업 AI 솔루션 활용 지원사업 PoC 모집 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124191"
-  },
-  {
-    "id": "crawl_PBLN_000000000124199",
-    "title": "[중소벤처기업부] [충북] 2026년 2차 중소기업 산업보안 진단 컨설팅 모집 공고(산업기술단지 거점기능강화사업)",
-    "deadline": "2026-07-24",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[중소벤처기업부] [충북] 2026년 2차 중소기업 산업보안 진단 컨설팅 모집 공고(산업기술단지 거점기능강화사업)",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124199"
-  },
-  {
-    "id": "crawl_PBLN_000000000124200",
-    "title": "[문화체육관광부] 2026년 콘텐츠 해외 투자유치 지원 프로그램 U-KNOCK 2026 in USA 참가기업 모집 공고",
-    "deadline": "2026-07-29",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[문화체육관광부] 2026년 콘텐츠 해외 투자유치 지원 프로그램 U-KNOCK 2026 in USA 참가기업 모집 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124200"
-  },
-  {
     "id": "prog_007",
     "title": "중소기업 혁신 바우처 제조혁신형",
     "deadline": "2026-07-31",
@@ -97,38 +20,5 @@
     "summary": "제조공정 디지털 전환을 위한 컨설팅·솔루션 구매비 최대 3000만원 지원.",
     "cert_bonus": "ISO 9001 인증 보유 시 우대",
     "url": "https://www.kosmes.or.kr"
-  },
-  {
-    "id": "crawl_PBLN_000000000124198",
-    "title": "[기후에너지환경부] 2026년 녹색경영 우수기업 시상 공고",
-    "deadline": "2026-07-31",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[기후에너지환경부] 2026년 녹색경영 우수기업 시상 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124198"
-  },
-  {
-    "id": "crawl_PBLN_000000000124190",
-    "title": "[경상남도] [경남] 2026년 2차 사회연대경제 청년 일경험사업 참여 기업 추가 모집 공고",
-    "deadline": "모집 마감시",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[경상남도] [경남] 2026년 2차 사회연대경제 청년 일경험사업 참여 기업 추가 모집 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124190"
-  },
-  {
-    "id": "crawl_PBLN_000000000124193",
-    "title": "[강원특별자치도] [강원] 속초시 2026년 2차 전시박람회 참가 지원사업 참가기업 추가 모집 공고",
-    "deadline": "예산 소진시까지",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[강원특별자치도] [강원] 속초시 2026년 2차 전시박람회 참가 지원사업 참가기업 추가 모집 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124193"
   }
 ]

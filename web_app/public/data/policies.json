@@ -11,6 +11,28 @@
     "url": "https://www.bizinfo.go.kr"
   },
   {
+    "id": "crawl_PBLN_000000000124559",
+    "title": "[전북특별자치도] [전북] 2026년 지역창업특화지원(전주1인창조기업지원센터) 선택형 지원사업 추가모집 공고",
+    "deadline": "2026-07-27",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[전북특별자치도] [전북] 2026년 지역창업특화지원(전주1인창조기업지원센터) 선택형 지원사업 추가모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124559"
+  },
+  {
+    "id": "crawl_PBLN_000000000124554",
+    "title": "[강원특별자치도] [강원] 2026년 2차 강원BRIDGE 글로벌 진출 프로그램 참여기업 모집 공고",
+    "deadline": "2026-07-27",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[강원특별자치도] [강원] 2026년 2차 강원BRIDGE 글로벌 진출 프로그램 참여기업 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124554"
+  },
+  {
     "id": "prog_007",
     "title": "중소기업 혁신 바우처 제조혁신형",
     "deadline": "2026-07-31",
@@ -20,5 +42,93 @@
     "summary": "제조공정 디지털 전환을 위한 컨설팅·솔루션 구매비 최대 3000만원 지원.",
     "cert_bonus": "ISO 9001 인증 보유 시 우대",
     "url": "https://www.kosmes.or.kr"
+  },
+  {
+    "id": "crawl_PBLN_000000000124557",
+    "title": "[강원특별자치도] [강원] 춘천시 2026년 1차 우수 중소기업제품 특별판매전(춘천금빛장터) 참여기업 모집 공고",
+    "deadline": "2026-08-05",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[강원특별자치도] [강원] 춘천시 2026년 1차 우수 중소기업제품 특별판매전(춘천금빛장터) 참여기업 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124557"
+  },
+  {
+    "id": "crawl_PBLN_000000000124563",
+    "title": "[울산광역시] [울산] 울주군 2026년 2차 소상공인 경영환경개선 및 디지털기기 지원 사업 공고",
+    "deadline": "2026-08-07",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[울산광역시] [울산] 울주군 2026년 2차 소상공인 경영환경개선 및 디지털기기 지원 사업 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124563"
+  },
+  {
+    "id": "crawl_PBLN_000000000124564",
+    "title": "[과학기술정보통신부] 2026년 2차 정보보호제품 성능평가 지원 공모 사업 공고",
+    "deadline": "2026-08-14",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[과학기술정보통신부] 2026년 2차 정보보호제품 성능평가 지원 공모 사업 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124564"
+  },
+  {
+    "id": "crawl_PBLN_000000000124561",
+    "title": "[전북특별자치도] [전북] 2026년 6차 ILP 서비스 기술연결 수요기업 모집 공고",
+    "deadline": "2026-08-14",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[전북특별자치도] [전북] 2026년 6차 ILP 서비스 기술연결 수요기업 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124561"
+  },
+  {
+    "id": "crawl_PBLN_000000000124558",
+    "title": "[중소벤처기업부] 제2회 제조AI 솔루션 공모전 공고",
+    "deadline": "2026-08-21",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[중소벤처기업부] 제2회 제조AI 솔루션 공모전 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124558"
+  },
+  {
+    "id": "crawl_PBLN_000000000124560",
+    "title": "[대구광역시] [대구] 북구 2026년 하반기 소상공인 경영안정자금 지원사업 공고",
+    "deadline": "예산 소진시까지",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[대구광역시] [대구] 북구 2026년 하반기 소상공인 경영안정자금 지원사업 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124560"
+  },
+  {
+    "id": "crawl_PBLN_000000000124555",
+    "title": "[대구광역시] [대구] 가치 업고(UP-GO) 마일리지 사업 문화공간 조성 프로그램 모집 공고",
+    "deadline": "예산 소진시까지",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[대구광역시] [대구] 가치 업고(UP-GO) 마일리지 사업 문화공간 조성 프로그램 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124555"
+  },
+  {
+    "id": "crawl_PBLN_000000000124556",
+    "title": "[충청남도] 반도체 FOWLP 소부장 테스트베드 구축 기업지원 프로그램 공고",
+    "deadline": "지원별 상이",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[충청남도] 반도체 FOWLP 소부장 테스트베드 구축 기업지원 프로그램 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000124556"
   }
 ]

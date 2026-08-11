@@ -20,5 +20,115 @@
     "summary": "제조공정 디지털 전환을 위한 컨설팅·솔루션 구매비 최대 3000만원 지원.",
     "cert_bonus": "ISO 9001 인증 보유 시 우대",
     "url": "https://www.kosmes.or.kr"
+  },
+  {
+    "id": "crawl_PBLN_000000000125351",
+    "title": "[서울특별시] [서울] 강남구 2026년 중국 무역사절단 참가기업 추가 모집 공고",
+    "deadline": "2026-08-17",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[서울특별시] [서울] 강남구 2026년 중국 무역사절단 참가기업 추가 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125351"
+  },
+  {
+    "id": "crawl_PBLN_000000000125350",
+    "title": "[문화체육관광부] 2026년 관광기업 베트남 오픈 이노베이션 참가기업 공고",
+    "deadline": "2026-08-18",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[문화체육관광부] 2026년 관광기업 베트남 오픈 이노베이션 참가기업 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125350"
+  },
+  {
+    "id": "crawl_PBLN_000000000125342",
+    "title": "[경상북도] [경북] 북부권 2026년 구인ㆍ구직 만남의 날 채용 행사 일자리 잡(JOB)는 날 참여기업 모집 공고",
+    "deadline": "2026-08-18",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[경상북도] [경북] 북부권 2026년 구인ㆍ구직 만남의 날 채용 행사 일자리 잡(JOB)는 날 참여기업 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125342"
+  },
+  {
+    "id": "crawl_PBLN_000000000125344",
+    "title": "[충청북도] [충북] 2026년 KOREA BUSINESS EXPO SHENZHEN 충북관 참여기업 모집 공고",
+    "deadline": "2026-08-21",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[충청북도] [충북] 2026년 KOREA BUSINESS EXPO SHENZHEN 충북관 참여기업 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125344"
+  },
+  {
+    "id": "crawl_PBLN_000000000125347",
+    "title": "[문화체육관광부] 2026년 K-관광 비즈니스데이 in 나고야 참가기관 모집 공고",
+    "deadline": "2026-08-24",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[문화체육관광부] 2026년 K-관광 비즈니스데이 in 나고야 참가기관 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125347"
+  },
+  {
+    "id": "crawl_PBLN_000000000125343",
+    "title": "[서울특별시] [서울] 2026년 콘텐츠 투자협의체 투자상담회 참가기업 모집 공고",
+    "deadline": "2026-08-28",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[서울특별시] [서울] 2026년 콘텐츠 투자협의체 투자상담회 참가기업 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125343"
+  },
+  {
+    "id": "crawl_PBLN_000000000125348",
+    "title": "[해양수산부] [전북] 2026년 하반기 전북해양수산창업투자지원센터 국내박람회 참여기업 통합 모집 공고",
+    "deadline": "2026-09-04",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[해양수산부] [전북] 2026년 하반기 전북해양수산창업투자지원센터 국내박람회 참여기업 통합 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125348"
+  },
+  {
+    "id": "crawl_PBLN_000000000125346",
+    "title": "[충청남도] [충남] 2026년 그린스타트업타운 오픈이노베이션 사업화 지원사업 참여기업 모집 공고",
+    "deadline": "2026-09-04",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[충청남도] [충남] 2026년 그린스타트업타운 오픈이노베이션 사업화 지원사업 참여기업 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125346"
+  },
+  {
+    "id": "crawl_PBLN_000000000125345",
+    "title": "[고용노동부] [전남광주] 2026년 전남형 신중년 사회연대경제 노동통합 모델 구축사업 참여기업 상시 모집 공고",
+    "deadline": "상시 접수",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[고용노동부] [전남광주] 2026년 전남형 신중년 사회연대경제 노동통합 모델 구축사업 참여기업 상시 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125345"
+  },
+  {
+    "id": "crawl_PBLN_000000000125352",
+    "title": "[경상남도] [경남] 2026년 하반기 식품진흥기금 융자금 지원계획 공고",
+    "deadline": "예산 소진시까지",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[경상남도] [경남] 2026년 하반기 식품진흥기금 융자금 지원계획 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000125352"
   }
 ]

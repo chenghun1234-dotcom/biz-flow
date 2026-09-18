@@ -22,113 +22,113 @@
     "url": "https://www.kosmes.or.kr"
   },
   {
-    "id": "crawl_PBLN_000000000126595",
-    "title": "[전북특별자치도] [전북] 무주군 2026년 중소기업 육성기금 융자 지원계획 재공고",
+    "id": "crawl_PBLN_000000000126639",
+    "title": "[강원특별자치도] [강원] 화천군 2026년 모범음식점 모집 공고",
+    "deadline": "2026-09-28",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[강원특별자치도] [강원] 화천군 2026년 모범음식점 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126639"
+  },
+  {
+    "id": "crawl_PBLN_000000000126638",
+    "title": "[문화체육관광부] 2026년 지스타 콘솔게임 공동관 참가기업 추가모집 공고",
     "deadline": "2026-09-29",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[전북특별자치도] [전북] 무주군 2026년 중소기업 육성기금 융자 지원계획 재공고",
+    "summary": "[문화체육관광부] 2026년 지스타 콘솔게임 공동관 참가기업 추가모집 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126595"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126638"
   },
   {
-    "id": "crawl_PBLN_000000000126590",
-    "title": "[강원특별자치도] [강원] AI 기반 맞춤형 수출전략 수립 지원사업 참가기업 모집 공고(강원특별자치도ㆍKOTRA 연계)",
-    "deadline": "2026-09-29",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[강원특별자치도] [강원] AI 기반 맞춤형 수출전략 수립 지원사업 참가기업 모집 공고(강원특별자치도ㆍKOTRA 연계)",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126590"
-  },
-  {
-    "id": "crawl_PBLN_000000000126599",
-    "title": "[충청남도] [충남] 보령시 2026년 중장년 창업육성사업 예비창업자 추가 모집 공고",
+    "id": "crawl_PBLN_000000000126636",
+    "title": "[부산광역시] [부산] 2026년 신발산업 글로벌 파트너십 테크 Meet-Up Day 참가기업 모집 공고",
     "deadline": "2026-09-30",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[충청남도] [충남] 보령시 2026년 중장년 창업육성사업 예비창업자 추가 모집 공고",
+    "summary": "[부산광역시] [부산] 2026년 신발산업 글로벌 파트너십 테크 Meet-Up Day 참가기업 모집 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126599"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126636"
   },
   {
-    "id": "crawl_PBLN_000000000126598",
-    "title": "[전북특별자치도] [전북] 부안군 2026년 하반기 착한가격업소 신규 지정 공고",
-    "deadline": "2026-09-30",
+    "id": "crawl_PBLN_000000000126641",
+    "title": "[경기도] [경기] 수원시 2026년 SMATEC 공동관 참가기업 모집 공고",
+    "deadline": "2026-10-02",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[전북특별자치도] [전북] 부안군 2026년 하반기 착한가격업소 신규 지정 공고",
+    "summary": "[경기도] [경기] 수원시 2026년 SMATEC 공동관 참가기업 모집 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126598"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126641"
   },
   {
-    "id": "crawl_PBLN_000000000126591",
-    "title": "[강원특별자치도] [강원] 춘천시 2026년 전통주 포장재 개선 및 품질관리 지원 사업자 모집 공고",
-    "deadline": "2026-09-30",
+    "id": "crawl_PBLN_000000000126637",
+    "title": "[강원특별자치도] [강원] 홍천군 2026년 하반기 착한가격업소 신규지정 업체 모집 공고",
+    "deadline": "2026-10-02",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[강원특별자치도] [강원] 춘천시 2026년 전통주 포장재 개선 및 품질관리 지원 사업자 모집 공고",
+    "summary": "[강원특별자치도] [강원] 홍천군 2026년 하반기 착한가격업소 신규지정 업체 모집 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126591"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126637"
   },
   {
-    "id": "crawl_PBLN_000000000126593",
-    "title": "[기후에너지환경부] 2026년 녹색자산유동화증권 이차보전 지원사업(신보6차) 공고",
-    "deadline": "2026-10-01",
+    "id": "crawl_PBLN_000000000126640",
+    "title": "[강원특별자치도] [강원] 인제군 2026년 사회적경제기업 지원사업 모집 공고",
+    "deadline": "2026-10-30",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[기후에너지환경부] 2026년 녹색자산유동화증권 이차보전 지원사업(신보6차) 공고",
+    "summary": "[강원특별자치도] [강원] 인제군 2026년 사회적경제기업 지원사업 모집 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126593"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126640"
   },
   {
-    "id": "crawl_PBLN_000000000126592",
-    "title": "[부산광역시] [부산] 사상구 2026년 하반기 착한가격업소 지정 신청 공고",
-    "deadline": "2026-10-01",
+    "id": "crawl_PBLN_000000000126633",
+    "title": "[강원특별자치도] [강원] 삼척시 2026년 지역농산물 수출장려금 지원사업 공고",
+    "deadline": "2026-12-04",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[부산광역시] [부산] 사상구 2026년 하반기 착한가격업소 지정 신청 공고",
+    "summary": "[강원특별자치도] [강원] 삼척시 2026년 지역농산물 수출장려금 지원사업 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126592"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126633"
   },
   {
-    "id": "crawl_PBLN_000000000126596",
-    "title": "[강원특별자치도] [강원] 2026년 강원특별자치도 예비사회적기업 지정계획 공고",
-    "deadline": "2026-10-20",
+    "id": "crawl_PBLN_000000000126635",
+    "title": "[경상북도] [경북] 경주시 2026년 온라인 플랫폼 판로지원 온라인 기획전 참여업체 추가모집 공고",
+    "deadline": "모집 완료시까지",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[강원특별자치도] [강원] 2026년 강원특별자치도 예비사회적기업 지정계획 공고",
+    "summary": "[경상북도] [경북] 경주시 2026년 온라인 플랫폼 판로지원 온라인 기획전 참여업체 추가모집 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126596"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126635"
   },
   {
-    "id": "crawl_PBLN_000000000126597",
-    "title": "[전북특별자치도] [전북] 임실군 2026년 소상공인 희망더드림 특례보증 및 이차보전 지원 사업 공고",
+    "id": "crawl_PBLN_000000000126642",
+    "title": "[전북특별자치도] [전북] 2026년 중소기업 육성자금 융자 지원계획 수정 공고",
     "deadline": "예산 소진시까지",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[전북특별자치도] [전북] 임실군 2026년 소상공인 희망더드림 특례보증 및 이차보전 지원 사업 공고",
+    "summary": "[전북특별자치도] [전북] 2026년 중소기업 육성자금 융자 지원계획 수정 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126597"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126642"
   },
   {
-    "id": "crawl_PBLN_000000000126594",
-    "title": "[전북특별자치도] [전북] 무주군 2026년 인구감소지역 기업지원 특례보증 금융지원 신청 공고",
+    "id": "crawl_PBLN_000000000126634",
+    "title": "[경상북도] [경북] 영양군 2026년 소상공인 카드수수료 지원사업 참여점포 모집 수정 공고",
     "deadline": "예산 소진시까지",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[전북특별자치도] [전북] 무주군 2026년 인구감소지역 기업지원 특례보증 금융지원 신청 공고",
+    "summary": "[경상북도] [경북] 영양군 2026년 소상공인 카드수수료 지원사업 참여점포 모집 수정 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126594"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000126634"
   }
 ]

@@ -22,113 +22,113 @@
     "url": "https://www.kosmes.or.kr"
   },
   {
-    "id": "crawl_PBLN_000000000127125",
-    "title": "[대전광역시] [대전] 2026년 슈퍼콘 액셀러레이팅 참여기업 모집 공고",
-    "deadline": "2026-10-14",
+    "id": "crawl_PBLN_000000000127170",
+    "title": "[전북특별자치도] [전북] 남원시 2026년 하반기 착한가격업소 지정 모집 재공고",
+    "deadline": "2026-10-15",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[대전광역시] [대전] 2026년 슈퍼콘 액셀러레이팅 참여기업 모집 공고",
+    "summary": "[전북특별자치도] [전북] 남원시 2026년 하반기 착한가격업소 지정 모집 재공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127125"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127170"
   },
   {
-    "id": "crawl_PBLN_000000000127124",
-    "title": "[경상남도] [경남] 산청군 2026년 착한가격업소 추가 모집 공고",
+    "id": "crawl_PBLN_000000000127169",
+    "title": "[전북특별자치도] [전북] 부안군 제24회 부산국제수산EXPO 운영 부스 참가 업체 긴급 모집 공고",
+    "deadline": "2026-10-16",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[전북특별자치도] [전북] 부안군 제24회 부산국제수산EXPO 운영 부스 참가 업체 긴급 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127169"
+  },
+  {
+    "id": "crawl_PBLN_000000000127165",
+    "title": "[전북특별자치도] [전북] 고창군 2026년 지역특화형비자 외국인 고용 우수기업 지원사업 참여기업 모집 재공고",
+    "deadline": "2026-10-16",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[전북특별자치도] [전북] 고창군 2026년 지역특화형비자 외국인 고용 우수기업 지원사업 참여기업 모집 재공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127165"
+  },
+  {
+    "id": "crawl_PBLN_000000000127168",
+    "title": "[전북특별자치도] [전북] 부안군 2026년 2차 수산물 가공ㆍ유통분야 지원사업 희망자 모집 공고",
+    "deadline": "2026-10-19",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[전북특별자치도] [전북] 부안군 2026년 2차 수산물 가공ㆍ유통분야 지원사업 희망자 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127168"
+  },
+  {
+    "id": "crawl_PBLN_000000000127167",
+    "title": "[전북특별자치도] [전북] 남원시 2026년 중소기업 환경개선사업 재공고",
+    "deadline": "2026-10-19",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[전북특별자치도] [전북] 남원시 2026년 중소기업 환경개선사업 재공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127167"
+  },
+  {
+    "id": "crawl_PBLN_000000000127166",
+    "title": "[전북특별자치도] [전북] 부안군 2026년 음식점 위생환경 개선 클리닝 지원사업 희망업소 모집 공고",
     "deadline": "2026-10-21",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[경상남도] [경남] 산청군 2026년 착한가격업소 추가 모집 공고",
+    "summary": "[전북특별자치도] [전북] 부안군 2026년 음식점 위생환경 개선 클리닝 지원사업 희망업소 모집 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127124"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127166"
   },
   {
-    "id": "crawl_PBLN_000000000127122",
-    "title": "[경상북도] [경북] 포항시 2026년 2차 지역산업위기대응 맞춤형 지원사업 참여기업 추가모집(전시회) 공고",
-    "deadline": "2026-10-21",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[경상북도] [경북] 포항시 2026년 2차 지역산업위기대응 맞춤형 지원사업 참여기업 추가모집(전시회) 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127122"
-  },
-  {
-    "id": "crawl_PBLN_000000000127128",
-    "title": "[경상남도] [경남] 거창군 2026년 유기질비료 지원사업 2차 추가 신청 공고",
-    "deadline": "2026-10-22",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[경상남도] [경남] 거창군 2026년 유기질비료 지원사업 2차 추가 신청 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127128"
-  },
-  {
-    "id": "crawl_PBLN_000000000127123",
-    "title": "[경상남도] [경남] 산청군 임산물 가공제품 개발지원사업 신청 공고",
+    "id": "crawl_PBLN_000000000127173",
+    "title": "[전북특별자치도] [전북] 김제시 2026년 김제전통시장 청년몰 입점 모집 공고",
     "deadline": "2026-10-23",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[경상남도] [경남] 산청군 임산물 가공제품 개발지원사업 신청 공고",
+    "summary": "[전북특별자치도] [전북] 김제시 2026년 김제전통시장 청년몰 입점 모집 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127123"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127173"
   },
   {
-    "id": "crawl_PBLN_000000000127121",
-    "title": "[경상남도] [경남] 함안군 2026년 3차 외국인근로자 생활환경 개선 지원사업 재공고",
+    "id": "crawl_PBLN_000000000127172",
+    "title": "[충청남도] [충남] 예산군 2026년 착한가격업소 신규지정 신청 공고",
+    "deadline": "2026-10-23",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[충청남도] [충남] 예산군 2026년 착한가격업소 신규지정 신청 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127172"
+  },
+  {
+    "id": "crawl_PBLN_000000000127164",
+    "title": "[전북특별자치도] [전북] 익산시 청년공유주방(배달형 외식창업 인큐베이팅) 예비창업자 모집 재공고(익산시 음식ㆍ식품교육문화원)",
+    "deadline": "2026-10-26",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[전북특별자치도] [전북] 익산시 청년공유주방(배달형 외식창업 인큐베이팅) 예비창업자 모집 재공고(익산시 음식ㆍ식품교육문화원)",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127164"
+  },
+  {
+    "id": "crawl_PBLN_000000000127171",
+    "title": "[충청남도] [충남] 공주시 2026년 하반기 소상공인 카드가맹점 카드수수료 지원사업 공고",
     "deadline": "2026-10-30",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[경상남도] [경남] 함안군 2026년 3차 외국인근로자 생활환경 개선 지원사업 재공고",
+    "summary": "[충청남도] [충남] 공주시 2026년 하반기 소상공인 카드가맹점 카드수수료 지원사업 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127121"
-  },
-  {
-    "id": "crawl_PBLN_000000000127129",
-    "title": "[기후에너지환경부] 2026년 에너지기술 수용성 제고 및 사업화 촉진 사업 신규지원 대상 연구개발과제 공고",
-    "deadline": "2026-11-10",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[기후에너지환경부] 2026년 에너지기술 수용성 제고 및 사업화 촉진 사업 신규지원 대상 연구개발과제 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127129"
-  },
-  {
-    "id": "crawl_PBLN_000000000127130",
-    "title": "[과학기술정보통신부] 2026년 연구개발특구 기술사업화대상 후보자 추천 공고",
-    "deadline": "2026-11-11",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[과학기술정보통신부] 2026년 연구개발특구 기술사업화대상 후보자 추천 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127130"
-  },
-  {
-    "id": "crawl_PBLN_000000000127126",
-    "title": "[대구광역시] [대구] 남구 2026년 남구다운 청년 창업 지원사업 통합공고",
-    "deadline": "2026-11-12",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[대구광역시] [대구] 남구 2026년 남구다운 청년 창업 지원사업 통합공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127126"
-  },
-  {
-    "id": "crawl_PBLN_000000000127127",
-    "title": "[경상남도] [경남] 거창군 2026년 소규모 사업장 방지시설 설치 지원사업 공고",
-    "deadline": "예산 소진시까지",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[경상남도] [경남] 거창군 2026년 소규모 사업장 방지시설 설치 지원사업 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127127"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127171"
   }
 ]

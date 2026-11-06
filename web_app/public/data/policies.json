@@ -22,113 +22,113 @@
     "url": "https://www.kosmes.or.kr"
   },
   {
-    "id": "crawl_PBLN_000000000127719",
-    "title": "[경기도] [경기] 시흥시 2026년 산업안전 개선 지원사업 추가모집 공고",
-    "deadline": "2026-11-10",
+    "id": "crawl_PBLN_000000000127757",
+    "title": "[방위사업청] 2026년 2차 유망수출품목발굴 지원사업 참여기업 모집 추가 연장 공고",
+    "deadline": "2026-11-12",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[경기도] [경기] 시흥시 2026년 산업안전 개선 지원사업 추가모집 공고",
+    "summary": "[방위사업청] 2026년 2차 유망수출품목발굴 지원사업 참여기업 모집 추가 연장 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127719"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127757"
   },
   {
-    "id": "crawl_PBLN_000000000127718",
-    "title": "[전남광주통합특별시] [전남광주] 고흥군 2026년 식품접객업소 입식테이블 설치 지원 대상업소 모집 추가 공고",
-    "deadline": "2026-11-10",
+    "id": "crawl_PBLN_000000000127753",
+    "title": "[대구광역시] [대구] 2026년 뿌리산업특화단지 지원 사업 수혜기업 모집 공고(테크융합 스마트그린산단 전환(AX/GX) 지원 사업)",
+    "deadline": "2026-11-16",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[전남광주통합특별시] [전남광주] 고흥군 2026년 식품접객업소 입식테이블 설치 지원 대상업소 모집 추가 공고",
+    "summary": "[대구광역시] [대구] 2026년 뿌리산업특화단지 지원 사업 수혜기업 모집 공고(테크융합 스마트그린산단 전환(AX/GX) 지원 사업)",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127718"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127753"
   },
   {
-    "id": "crawl_PBLN_000000000127717",
-    "title": "[전남광주통합특별시] [전남광주] 고흥군 2026년 식품접객업소 시설환경개선 지원 대상업소 모집 추가 공고",
-    "deadline": "2026-11-10",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[전남광주통합특별시] [전남광주] 고흥군 2026년 식품접객업소 시설환경개선 지원 대상업소 모집 추가 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127717"
-  },
-  {
-    "id": "crawl_PBLN_000000000127724",
-    "title": "[전남광주통합특별시] [전남광주] 보성군 2026년 3차 일반음식점 시설환경개선 지원사업 신청 공고",
-    "deadline": "2026-11-11",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[전남광주통합특별시] [전남광주] 보성군 2026년 3차 일반음식점 시설환경개선 지원사업 신청 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127724"
-  },
-  {
-    "id": "crawl_PBLN_000000000127726",
-    "title": "[전남광주통합특별시] [전남광주] 보성군 2026년 중동사태 어업용 면세유 유가연동보조금 지원사업 신청 추가 공고",
-    "deadline": "2026-11-13",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[전남광주통합특별시] [전남광주] 보성군 2026년 중동사태 어업용 면세유 유가연동보조금 지원사업 신청 추가 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127726"
-  },
-  {
-    "id": "crawl_PBLN_000000000127725",
-    "title": "[경기도] [경기] 2026년 AI콘텐츠 제작 및 마케팅 활용 교육 참여업체 모집 공고(중소기업 마케팅 지원사업)",
-    "deadline": "2026-11-13",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[경기도] [경기] 2026년 AI콘텐츠 제작 및 마케팅 활용 교육 참여업체 모집 공고(중소기업 마케팅 지원사업)",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127725"
-  },
-  {
-    "id": "crawl_PBLN_000000000127723",
-    "title": "[전남광주통합특별시] [전남광주] 고흥군 2026년 특별시장인증제품 포장디자인 제작 지원사업 신청 공고",
-    "deadline": "2026-11-13",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[전남광주통합특별시] [전남광주] 고흥군 2026년 특별시장인증제품 포장디자인 제작 지원사업 신청 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127723"
-  },
-  {
-    "id": "crawl_PBLN_000000000127722",
-    "title": "[전남광주통합특별시] [전남광주] 고흥군 2026년 특별시장인증제품 자가품질검사비 지원사업 신청 공고",
-    "deadline": "2026-11-13",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[전남광주통합특별시] [전남광주] 고흥군 2026년 특별시장인증제품 자가품질검사비 지원사업 신청 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127722"
-  },
-  {
-    "id": "crawl_PBLN_000000000127720",
-    "title": "[산업통상부] 2026년 4차 원전기업 인증 신청기업 모집 공고",
-    "deadline": "2026-11-13",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[산업통상부] 2026년 4차 원전기업 인증 신청기업 모집 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127720"
-  },
-  {
-    "id": "crawl_PBLN_000000000127721",
-    "title": "[강원특별자치도] [강원] AI 헬스케어 글로벌 브릿지 조성사업 아태 AI 헬스케어 글로벌 교차실증 참여 모집 공고",
+    "id": "crawl_PBLN_000000000127750",
+    "title": "[전남광주통합특별시] [전남광주] 무안군 2026년 친환경에너지절감장비 보급사업 추가 대상자 모집 공고",
     "deadline": "2026-11-18",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[강원특별자치도] [강원] AI 헬스케어 글로벌 브릿지 조성사업 아태 AI 헬스케어 글로벌 교차실증 참여 모집 공고",
+    "summary": "[전남광주통합특별시] [전남광주] 무안군 2026년 친환경에너지절감장비 보급사업 추가 대상자 모집 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127721"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127750"
+  },
+  {
+    "id": "crawl_PBLN_000000000127751",
+    "title": "[산업통상부] 2026년 3차 국가첨단전략산업 소부장 중소ㆍ중견기업 투자지원금 사업시행 공고",
+    "deadline": "2026-11-19",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[산업통상부] 2026년 3차 국가첨단전략산업 소부장 중소ㆍ중견기업 투자지원금 사업시행 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127751"
+  },
+  {
+    "id": "crawl_PBLN_000000000127752",
+    "title": "[중소벤처기업부] 2026년 백년소상공인 유공 포상 공고",
+    "deadline": "2026-11-20",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[중소벤처기업부] 2026년 백년소상공인 유공 포상 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127752"
+  },
+  {
+    "id": "crawl_PBLN_000000000127747",
+    "title": "[전남광주통합특별시] [전남광주] 해남군 2027년 청년어촌정착 지원사업 신청 공고",
+    "deadline": "2026-11-27",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[전남광주통합특별시] [전남광주] 해남군 2027년 청년어촌정착 지원사업 신청 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127747"
+  },
+  {
+    "id": "crawl_PBLN_000000000127755",
+    "title": "[산업통상부] 2026년 산업통상부-공공연구기관ㆍ대학 기술나눔 공고",
+    "deadline": "2026-12-09",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[산업통상부] 2026년 산업통상부-공공연구기관ㆍ대학 기술나눔 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127755"
+  },
+  {
+    "id": "crawl_PBLN_000000000127749",
+    "title": "[개인정보보호위원회] 가명정보 전문가 활용 지원 모집 공고",
+    "deadline": "2026-12-31",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[개인정보보호위원회] 가명정보 전문가 활용 지원 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127749"
+  },
+  {
+    "id": "crawl_PBLN_000000000127754",
+    "title": "[경상북도] [경북] 청도군 2026년 소상공인 카드수수료 지원사업 참여 점포 모집 변경 공고",
+    "deadline": "예산 소진시까지",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[경상북도] [경북] 청도군 2026년 소상공인 카드수수료 지원사업 참여 점포 모집 변경 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127754"
+  },
+  {
+    "id": "crawl_PBLN_000000000127748",
+    "title": "[대구광역시] [대구] 2026년 3차 중소기업경영안정자금 지원계획 변경 공고(이자지원)",
+    "deadline": "예산 소진시까지",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[대구광역시] [대구] 2026년 3차 중소기업경영안정자금 지원계획 변경 공고(이자지원)",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127748"
   }
 ]

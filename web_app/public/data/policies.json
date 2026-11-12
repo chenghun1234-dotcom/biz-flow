@@ -22,113 +22,113 @@
     "url": "https://www.kosmes.or.kr"
   },
   {
-    "id": "crawl_PBLN_000000000127822",
-    "title": "[충청남도] [충남] 논산시 2026년 농식품 홍보판촉 지원(변경) 추가 신청 공고",
-    "deadline": "2026-11-12",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[충청남도] [충남] 논산시 2026년 농식품 홍보판촉 지원(변경) 추가 신청 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127822"
-  },
-  {
-    "id": "crawl_PBLN_000000000127818",
-    "title": "[전북특별자치도] [전북] 정읍시 2026년 바이오기업 맞춤형 지원사업 참여기업 모집 재공고",
+    "id": "crawl_PBLN_000000000127865",
+    "title": "[강원특별자치도] [강원] 태백시 태백주도형 청년일자리사업 참여자 4차 추가모집 공고",
     "deadline": "2026-11-13",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[전북특별자치도] [전북] 정읍시 2026년 바이오기업 맞춤형 지원사업 참여기업 모집 재공고",
+    "summary": "[강원특별자치도] [강원] 태백시 태백주도형 청년일자리사업 참여자 4차 추가모집 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127818"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127865"
   },
   {
-    "id": "crawl_PBLN_000000000127825",
-    "title": "[충청남도] [충남] 청양군 2026년 착한가격업소 소규모 시설개선 지원사업 추가 모집 공고",
+    "id": "crawl_PBLN_000000000127863",
+    "title": "[충청북도] [충북] 보은군 2026년 중소기업 청년재직자 고용안정 지원사업 추가 모집 공고",
+    "deadline": "2026-11-13",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[충청북도] [충북] 보은군 2026년 중소기업 청년재직자 고용안정 지원사업 추가 모집 공고",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127863"
+  },
+  {
+    "id": "crawl_PBLN_000000000127860",
+    "title": "[산업통상부] [전남광주] 2026년 가전공장AI기반자율제조운영기술개발 수혜기업 모집 공고(기계장비산업기술개발사업)",
+    "deadline": "2026-11-13",
+    "is_loan": false,
+    "target": "중소기업",
+    "field": "경영지원",
+    "summary": "[산업통상부] [전남광주] 2026년 가전공장AI기반자율제조운영기술개발 수혜기업 모집 공고(기계장비산업기술개발사업)",
+    "cert_bonus": null,
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127860"
+  },
+  {
+    "id": "crawl_PBLN_000000000127867",
+    "title": "[강원특별자치도] [강원] 홍천군 2026년 내수면 노후선외기 대체 지원사업 사업자 모집 재공고",
     "deadline": "2026-11-16",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[충청남도] [충남] 청양군 2026년 착한가격업소 소규모 시설개선 지원사업 추가 모집 공고",
+    "summary": "[강원특별자치도] [강원] 홍천군 2026년 내수면 노후선외기 대체 지원사업 사업자 모집 재공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127825"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127867"
   },
   {
-    "id": "crawl_PBLN_000000000127821",
-    "title": "[충청남도] [충남] 보령시 2027년 동계 청년 단기인턴 참여기업(기관) 모집 공고",
-    "deadline": "2026-11-19",
+    "id": "crawl_PBLN_000000000127862",
+    "title": "[산업통상부] 2026년 4차 중소기업 품질시스템 구축 지원사업 시행 공고",
+    "deadline": "2026-11-18",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[충청남도] [충남] 보령시 2027년 동계 청년 단기인턴 참여기업(기관) 모집 공고",
+    "summary": "[산업통상부] 2026년 4차 중소기업 품질시스템 구축 지원사업 시행 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127821"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127862"
   },
   {
-    "id": "crawl_PBLN_000000000127820",
-    "title": "[전북특별자치도] [전북] 고창군 2026년 여성어업인 특화건강검진사업 희망자 추가모집 공고",
-    "deadline": "2026-11-20",
+    "id": "crawl_PBLN_000000000127864",
+    "title": "[충청북도] [충북] 보은군 2026년 4분기 청년 소상공인 점포 임차료 지원사업 참여자 모집 공고",
+    "deadline": "2026-11-23",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[전북특별자치도] [전북] 고창군 2026년 여성어업인 특화건강검진사업 희망자 추가모집 공고",
+    "summary": "[충청북도] [충북] 보은군 2026년 4분기 청년 소상공인 점포 임차료 지원사업 참여자 모집 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127820"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127864"
   },
   {
-    "id": "crawl_PBLN_000000000127817",
-    "title": "[전북특별자치도] [전북] 군산시 2026년 여성농업인 생생카드 지원사업 신청 최종 공고",
-    "deadline": "2026-11-25",
+    "id": "crawl_PBLN_000000000127861",
+    "title": "[산업통상부] 2027년 중국 춘계(상해) 의료기기 전시회(CMEF Shanghai 2027) 한국관 참가기업 모집 공고",
+    "deadline": "2026-11-27",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[전북특별자치도] [전북] 군산시 2026년 여성농업인 생생카드 지원사업 신청 최종 공고",
+    "summary": "[산업통상부] 2027년 중국 춘계(상해) 의료기기 전시회(CMEF Shanghai 2027) 한국관 참가기업 모집 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127817"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127861"
   },
   {
-    "id": "crawl_PBLN_000000000127824",
-    "title": "[충청남도] [충남] 서천군 2027년 청년어촌정착지원 사업대상자 모집 공고",
-    "deadline": "2026-11-30",
+    "id": "crawl_PBLN_000000000127866",
+    "title": "[강원특별자치도] [강원] 삼척시 2027년 삼척형 청년 스타트업 창업 지원사업 참여자 모집 공고",
+    "deadline": "2026-12-11",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[충청남도] [충남] 서천군 2027년 청년어촌정착지원 사업대상자 모집 공고",
+    "summary": "[강원특별자치도] [강원] 삼척시 2027년 삼척형 청년 스타트업 창업 지원사업 참여자 모집 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127824"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127866"
   },
   {
-    "id": "crawl_PBLN_000000000127819",
-    "title": "[전북특별자치도] [전북] 고창군 2027년 청년어촌정착 지원사업 모집 공고",
-    "deadline": "2026-11-30",
+    "id": "crawl_PBLN_000000000127869",
+    "title": "[강원특별자치도] [강원] 평창군 2026년 생계형 1인 자영업자 사회보험료 지원 공고",
+    "deadline": "상시 접수",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[전북특별자치도] [전북] 고창군 2027년 청년어촌정착 지원사업 모집 공고",
+    "summary": "[강원특별자치도] [강원] 평창군 2026년 생계형 1인 자영업자 사회보험료 지원 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127819"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127869"
   },
   {
-    "id": "crawl_PBLN_000000000127816",
-    "title": "[전북특별자치도] [전북] 군산시 2026년 7차 수산물 유통시설 장비(저온저장고) 지원사업 모집 공고",
-    "deadline": "2026-11-30",
+    "id": "crawl_PBLN_000000000127868",
+    "title": "[강원특별자치도] [강원] 평창군 사회보험료 지원 공고",
+    "deadline": "상시 접수",
     "is_loan": false,
     "target": "중소기업",
     "field": "경영지원",
-    "summary": "[전북특별자치도] [전북] 군산시 2026년 7차 수산물 유통시설 장비(저온저장고) 지원사업 모집 공고",
+    "summary": "[강원특별자치도] [강원] 평창군 사회보험료 지원 공고",
     "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127816"
-  },
-  {
-    "id": "crawl_PBLN_000000000127823",
-    "title": "[충청남도] [충남] 부여군 2027년 유기농업자재 지원사업 대상자 모집 공고",
-    "deadline": "2026-12-24",
-    "is_loan": false,
-    "target": "중소기업",
-    "field": "경영지원",
-    "summary": "[충청남도] [충남] 부여군 2027년 유기농업자재 지원사업 대상자 모집 공고",
-    "cert_bonus": null,
-    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127823"
+    "url": "https://www.bizinfo.go.kr/sii/siia/selectSIIA200Detail.do?hashCode=&rowsSel=&rows=15&cpage=&cat=&schPblancDiv=&schJrsdCodeTy=&schWntyAt=&schAreaDetailCodes=&schEndAt=N&orderGb=&sort=&preKeywords=&condition=&condition1=&keyword=&pblancId=PBLN_000000000127868"
   }
 ]
